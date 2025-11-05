@@ -1,0 +1,14 @@
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+<link rel="stylesheet" href="{{ url_for('static', filename='css.css') }}">
+<body>
+  <form action="">
+    <input type="search" autofocus required>
+    <i class="fa fa-search" onclick="getMessage()"></i>
+    <button type="button" onclick="clearInput()">Clear</button>
+
+  </form>
+
+  <p id="result"></p> <!-- Thêm dòng này để hiển thị dữ liệu API -->
+
+  <script src="{{ url_for('static', filename='js.js') }}"></script>
+</body>

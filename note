@@ -1,0 +1,127 @@
+Có nhiều loại URL khác nhau tùy theo mục đích sử dụng, cách xây dựng và cấu trúc của chúng. Dưới đây là các loại URL phổ biến nhất hiện nay:
+
+### 1. URL tĩnh (Static URL)
+- Là những URL không thay đổi và không chứa tham số động.
+- Ví dụ:  
+  ```
+  https://example.com/lien-he
+  ```
+- Thân thiện với người dùng và SEO hơn vì dễ đọc, dễ nhớ.[5][7]
+
+### 2. URL động (Dynamic URL)
+- Được tạo tự động bởi hệ thống quản lý nội dung (CMS) hoặc máy chủ, thường chứa các tham số truy vấn.
+- Ví dụ:  
+  ```
+  https://example.com/san-pham?id=123&danhmuc=balo
+  ```
+- Khó nhớ và dài hơn, nhưng thường dùng cho hệ thống lớn, cập nhật liên tục.[7][5]
+
+### 3. URL tuyệt đối (Absolute URL)
+- Chứa đầy đủ các thành phần: giao thức, domain, và đường dẫn.
+- Ví dụ:  
+  ```
+  https://www.example.com/products/shoes
+  ```
+- Sử dụng khi cần dẫn đến tài nguyên chính xác trên toàn cầu mạng.[6]
+
+### 4. URL tương đối (Relative URL)
+- Không có giao thức, domain, chỉ có path và (có thể) query, dùng trong nội bộ website.
+- Ví dụ:  
+  ```
+  /products/shoes
+  ```
+- Phù hợp trong code HTML, đặc biệt là khi chuyển môi trường website.[6]
+
+### 5. Các loại đặc biệt theo chức năng
+- **Canonical URL:** xác định phiên bản chuẩn của một trang, dùng cho SEO khi có nội dung trùng lặp.
+- **Callback URL:** dùng trong các ứng dụng/webhook, chỉ định điểm đến khi hoàn thành một quy trình.
+- **Vanity URL:** URL ngắn gọn, dễ nhớ, thường rút ngắn qua dịch vụ như Bitly (ví dụ: https://bit.ly/abc123).[6]
+
+Như vậy, URL được chia thành nhiều loại dựa vào cấu trúc đường dẫn, mục đích sử dụng và mức độ thân thiện với người dùng hoặc SEO.[5][7][6]
+
+Nếu bạn muốn **kiểm thử bảo mật web thủ công (manual)**, không dùng công cụ tự động, vẫn có thể thực hiện toàn bộ quy trình pentest theo cách truyền thống. Dưới đây là **chuỗi thao tác đầy đủ** được mô phỏng đúng tiêu chuẩn OWASP — thích hợp cho CTF hoặc đánh giá bảo mật có kiểm soát, nhưng làm hoàn toàn bằng tay, chỉ với trình duyệt, terminal, và kiến thức HTTP.[1][2][3]
+
+***
+
+### 1. Lập kế hoạch và giới hạn phạm vi
+Xác định rõ: website nào được phép thử, tài nguyên nào không được đụng tới.  
+Mục tiêu: tránh phạm luật và không gây gián đoạn hệ thống.[1]
+
+***
+
+### 2. Thăm dò thủ công (Manual Reconnaissance)
+Dò tìm thông tin bằng trình duyệt và HTTP request cơ bản:
+- Mở **Developer Tools (F12)** → tab “Network” để xem tất cả request/response.
+- Thử thay đổi URL bằng tay để phát hiện đường dẫn ẩn:  
+  ```
+  /admin, /login, /dashboard, /robots.txt, /sitemap.xml
+  ```
+- Kiểm tra cookie, headers và token bằng tay.  
+- Xem source HTML để phát hiện comment nội bộ, API endpoint, JavaScript file ẩn.[2][1]
+
+***
+
+### 3. Kiểm tra thông tin nhạy cảm
+Kiểm tra các endpoint có thể trả về dữ liệu quan trọng:
+- Truy cập trực tiếp vào `/backup/`, `/config/`, `.git/`, `.env`
+- Thử thêm hậu tố `.bak`, `.old`, `.php~` để xem có file tạm không.  
+Ví dụ:
+```
+https://example.com/index.php~
+https://example.com/.env
+```
+Nếu truy cập được là một lỗi cấu hình nghiêm trọng.[3]
+
+***
+
+### 4. Kiểm tra tham số trong URL
+
+
+
+Thử nghiệm từng loại lỗ hổng tay:
+- **SQL injection:** thêm `'` hoặc `"`, dùng `UNION SELECT`, hoặc phép so sánh logic (`OR 1=1--`).
+- **XSS:** chèn `<script>alert(1)</script>` và quan sát phản hồi.
+- **LFI:** thay các giá trị file = thành `../../etc/passwd`.
+- Gửi request lại sau mỗi thay đổi để quan sát phản hồi, không cần công cụ tự động.[4][3]
+
+***
+
+### 5. Kiểm tra xác thực và phân quyền
+Sau khi đăng nhập:
+- Thử thay ID trong URL (IDOR):  
+  ```
+  /profile?id=1 → /profile?id=2
+  ```
+- Dùng cookie người dùng A truy cập tài nguyên người dùng B.  
+Nếu hệ thống không chặn được, đây là lỗi **Broken Access Control**.[2][1]
+
+***
+
+### 6. Kiểm tra chuyển hướng và lỗi logic
+- Thử thay đổi các tham số chuyển hướng:
+  ```
+  ?next=https://attacker.com
+  ```
+- Kiểm tra các form gửi dữ liệu: chỉnh sửa giá trị hidden field trực tiếp trong trình duyệt.
+- Nếu gửi dữ liệu không hợp lệ mà server vẫn phản hồi 200 OK, site có thể dính lỗi logic.[3][2]
+
+***
+
+### 7. Ghi chép và xác minh
+Tất cả thao tác cần ghi lại:
+- URL, tham số, payload, phản hồi.  
+- Ghi nhận lỗi rõ ràng: nội dung, tác động (lộ thông tin, bypass, file đọc được,...).  
+- Xác minh kỹ lại để tránh báo sai (false positive).[1][3]
+
+***
+
+### 8. Báo cáo đánh giá
+Tổng hợp phát hiện và đề xuất khắc phục, ví dụ:
+- Lọc `input` (input validation)  
+- Dùng `prepared statement` thay nối chuỗi SQL  
+- Ẩn thư mục nội bộ và cấu hình quyền truy cập chặt chẽ.[1]
+
+***
+
+Tóm lại, **kiểm thử web thủ công** dựa 100% trên **quan sát phản hồi URL, thay đổi tham số, kiểm tra logic và cấu hình**, không dựa vào công cụ quét. Ưu điểm là phát hiện được lỗi logic và hành vi thực tế mà công cụ bỏ sót; nhược điểm là tốn thời gian nhưng phù hợp để **đánh giá chính xác độ mạnh yếu của website**.[2][3][1]
+
