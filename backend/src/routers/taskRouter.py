@@ -9,6 +9,6 @@ taskRouter = Blueprint('taskRouter', __name__)
 
 
 @taskRouter.post('/api/task/', strict_slashes=False)
-def handle_url_Routers():
+def handle_scan_request():
     return handle_url()
 
