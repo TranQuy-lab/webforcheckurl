@@ -18,7 +18,7 @@ def home():
     return render_template("html.html")
 
 if __name__ == "__main__":
-    print (" server is running")
+    print (" server is running in port 5001")
     app.run(port=5001,debug=True)
 
 
