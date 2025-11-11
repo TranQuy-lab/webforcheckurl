@@ -1,0 +1,191 @@
+2025-11-06 14:57:35,616 | INFO | [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5001
+2025-11-06 14:57:35,617 | INFO | [33mPress CTRL+C to quit[0m
+2025-11-06 14:57:35,619 | INFO |  * Restarting with stat
+2025-11-06 14:57:36,764 | WARNING |  * Debugger is active!
+2025-11-06 14:57:36,776 | INFO |  * Debugger PIN: 141-129-209
+2025-11-06 14:58:40,195 | INFO | 127.0.0.1 - - [06/Nov/2025 14:58:40] "[35m[1mPOST /api/task HTTP/1.1[0m" 500 -
+2025-11-06 14:59:15,451 | INFO |  * Detected change in 'D:\\beforetoweb\\backend\\src\\routers\\taskRouter.py', reloading
+2025-11-06 14:59:15,898 | INFO |  * Restarting with stat
+2025-11-06 14:59:17,064 | WARNING |  * Debugger is active!
+2025-11-06 14:59:17,067 | INFO |  * Debugger PIN: 141-129-209
+2025-11-06 14:59:28,427 | INFO | 127.0.0.1 - - [06/Nov/2025 14:59:28] "[35m[1mPOST /api/task HTTP/1.1[0m" 500 -
+2025-11-06 15:01:02,464 | INFO |  * Detected change in 'D:\\beforetoweb\\backend\\src\\routers\\taskRouter.py', reloading
+2025-11-06 15:01:03,142 | INFO |  * Restarting with stat
+2025-11-06 15:01:04,518 | WARNING |  * Debugger is active!
+2025-11-06 15:01:04,522 | INFO |  * Debugger PIN: 141-129-209
+2025-11-06 15:01:11,237 | INFO | 127.0.0.1 - - [06/Nov/2025 15:01:11] "[35m[1mPOST /api/task HTTP/1.1[0m" 500 -
+2025-11-06 15:02:33,999 | INFO |  * Detected change in 'D:\\beforetoweb\\backend\\src\\routers\\taskRouter.py', reloading
+2025-11-06 15:02:34,479 | INFO |  * Restarting with stat
+2025-11-06 15:02:35,883 | WARNING |  * Debugger is active!
+2025-11-06 15:02:35,887 | INFO |  * Debugger PIN: 141-129-209
+2025-11-06 15:02:44,520 | INFO |  * Detected change in 'D:\\beforetoweb\\backend\\src\\controllers\\controllers.py', reloading
+2025-11-06 15:02:45,120 | INFO |  * Restarting with stat
+2025-11-06 15:02:46,541 | WARNING |  * Debugger is active!
+2025-11-06 15:02:46,547 | INFO |  * Debugger PIN: 141-129-209
+2025-11-06 15:02:51,731 | INFO | 127.0.0.1 - - [06/Nov/2025 15:02:51] "[35m[1mPOST /api/task HTTP/1.1[0m" 500 -
+2025-11-06 15:03:06,699 | INFO |  * Detected change in 'D:\\beforetoweb\\backend\\src\\controllers\\controllers.py', reloading
+2025-11-06 15:03:07,298 | INFO |  * Restarting with stat
+2025-11-06 15:03:08,514 | WARNING |  * Debugger is active!
+2025-11-06 15:03:08,519 | INFO |  * Debugger PIN: 141-129-209
+2025-11-06 15:03:16,698 | INFO |  * Detected change in 'D:\\beforetoweb\\backend\\src\\routers\\taskRouter.py', reloading
+2025-11-06 15:03:17,188 | INFO |  * Restarting with stat
+2025-11-06 15:03:18,249 | WARNING |  * Debugger is active!
+2025-11-06 15:03:18,253 | INFO |  * Debugger PIN: 141-129-209
+2025-11-06 15:03:27,416 | INFO | 127.0.0.1 - - [06/Nov/2025 15:03:27] "[35m[1mPOST /api/task HTTP/1.1[0m" 500 -
+2025-11-06 15:04:32,739 | INFO |  * Detected change in 'D:\\beforetoweb\\backend\\src\\routers\\taskRouter.py', reloading
+2025-11-06 15:04:33,243 | INFO |  * Restarting with stat
+2025-11-06 15:07:53,547 | INFO | [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5001
+2025-11-06 15:07:53,547 | INFO | [33mPress CTRL+C to quit[0m
+2025-11-06 15:07:53,549 | INFO |  * Restarting with stat
+2025-11-06 15:07:54,549 | WARNING |  * Debugger is active!
+2025-11-06 15:07:54,554 | INFO |  * Debugger PIN: 141-129-209
+2025-11-06 15:08:00,758 | INFO | 127.0.0.1 - - [06/Nov/2025 15:08:00] "[35m[1mPOST /api/task HTTP/1.1[0m" 500 -
+2025-11-06 15:09:12,690 | INFO |  * Detected change in 'D:\\beforetoweb\\backend\\src\\controllers\\controllers.py', reloading
+2025-11-06 15:09:13,225 | INFO |  * Restarting with stat
+2025-11-06 15:19:11,945 | INFO | [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5001
+2025-11-06 15:19:11,945 | INFO | [33mPress CTRL+C to quit[0m
+2025-11-06 15:19:11,947 | INFO |  * Restarting with stat
+2025-11-06 15:19:12,949 | WARNING |  * Debugger is active!
+2025-11-06 15:19:12,954 | INFO |  * Debugger PIN: 141-129-209
+2025-11-06 15:19:19,825 | INFO | 127.0.0.1 - - [06/Nov/2025 15:19:19] "[35m[1mPOST /api/task HTTP/1.1[0m" 500 -
+2025-11-07 15:15:38,593 | INFO | [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5001
+2025-11-07 15:15:38,593 | INFO | [33mPress CTRL+C to quit[0m
+2025-11-07 15:15:38,595 | INFO |  * Restarting with stat
+2025-11-07 15:15:39,752 | WARNING |  * Debugger is active!
+2025-11-07 15:15:39,758 | INFO |  * Debugger PIN: 133-634-996
+2025-11-07 15:15:48,901 | INFO | 127.0.0.1 - - [07/Nov/2025 15:15:48] "[35m[1mPOST /api/task HTTP/1.1[0m" 500 -
+2025-11-07 15:26:22,862 | INFO |  * Detected change in 'D:\\beforetoweb\\backend\\src\\controllers\\controllers.py', reloading
+2025-11-07 15:26:23,414 | INFO |  * Restarting with stat
+2025-11-07 18:42:10,310 | INFO | [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5001
+2025-11-07 18:42:10,310 | INFO | [33mPress CTRL+C to quit[0m
+2025-11-07 18:42:10,312 | INFO |  * Restarting with stat
+2025-11-07 18:42:11,515 | WARNING |  * Debugger is active!
+2025-11-07 18:42:11,518 | INFO |  * Debugger PIN: 133-634-996
+2025-11-07 18:42:17,283 | INFO | ========== B\u1eaeT \u0110\u1ea6U QUÉT ==========
+2025-11-07 18:42:17,288 | INFO | URL: https://0acd002f03d2df0f81963ebe00d6003d.web-security-academy.net/product?productId=10
+2025-11-07 18:42:17,288 | INFO | Category: ['absolute_url', 'dynamic_url']
+2025-11-07 18:42:17,288 | INFO | >>> Quét DYNAMIC HOLES
+2025-11-07 18:42:17,289 | INFO | [Dynamic] Quét SQL Injection: https://0acd002f03d2df0f81963ebe00d6003d.web-security-academy.net/product?productId=10
+2025-11-07 18:44:35,695 | INFO | [Dynamic] Quét XSS: https://0acd002f03d2df0f81963ebe00d6003d.web-security-academy.net/product?productId=10
+2025-11-07 18:46:16,444 | INFO | [Dynamic] Quét Broken Authentication: https://0acd002f03d2df0f81963ebe00d6003d.web-security-academy.net/product?productId=10
+2025-11-07 18:46:22,640 | INFO | [Dynamic] Quét IDOR: https://0acd002f03d2df0f81963ebe00d6003d.web-security-academy.net/product?productId=10
+2025-11-07 18:46:23,918 | ERROR | Database error: Cannot resolve field "scan_results"
+2025-11-07 18:46:23,919 | INFO | 127.0.0.1 - - [07/Nov/2025 18:46:23] "[35m[1mPOST /api/task HTTP/1.1[0m" 500 -
+2025-11-07 19:00:34,547 | INFO | [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5001
+2025-11-07 19:00:34,547 | INFO | [33mPress CTRL+C to quit[0m
+2025-11-07 19:00:34,550 | INFO |  * Restarting with stat
+2025-11-07 19:00:35,730 | WARNING |  * Debugger is active!
+2025-11-07 19:00:35,740 | INFO |  * Debugger PIN: 141-129-209
+2025-11-07 19:00:52,158 | INFO | ========== B\u1eaeT \u0110\u1ea6U QUÉT ==========
+2025-11-07 19:00:52,158 | INFO | URL: https://0acd002f03d2df0f81963ebe00d6003d.web-security-academy.net/product?productId=10
+2025-11-07 19:00:52,158 | INFO | Category: ['absolute_url', 'dynamic_url']
+2025-11-07 19:00:52,158 | INFO | >>> Quét DYNAMIC HOLES
+2025-11-07 19:00:52,158 | INFO | [Dynamic] Quét SQL Injection: https://0acd002f03d2df0f81963ebe00d6003d.web-security-academy.net/product?productId=10
+2025-11-07 19:03:08,398 | INFO | [Dynamic] Quét XSS: https://0acd002f03d2df0f81963ebe00d6003d.web-security-academy.net/product?productId=10
+2025-11-07 19:04:42,404 | INFO | [Dynamic] Quét Broken Authentication: https://0acd002f03d2df0f81963ebe00d6003d.web-security-academy.net/product?productId=10
+2025-11-07 19:04:48,552 | INFO | [Dynamic] Quét IDOR: https://0acd002f03d2df0f81963ebe00d6003d.web-security-academy.net/product?productId=10
+2025-11-07 19:04:49,831 | INFO | T\u1ed5ng s\u1ed1 l\u1ed7 h\u1ed5ng phát hi\u1ec7n: 0
+2025-11-07 19:04:49,831 | INFO | ========== K\u1ebeT THÚC QUÉT ==========
+
+2025-11-07 19:04:49,832 | INFO | 127.0.0.1 - - [07/Nov/2025 19:04:49] "POST /api/task HTTP/1.1" 200 -
+2025-11-07 19:10:25,737 | INFO | ========== B\u1eaeT \u0110\u1ea6U QUÉT ==========
+2025-11-07 19:10:25,738 | INFO | URL: https://hcmussh.edu.vn/
+2025-11-07 19:10:25,738 | INFO | Category: ['absolute_url', 'static_url']
+2025-11-07 19:10:25,738 | INFO | >>> Quét STATIC HOLES
+2025-11-07 19:10:25,738 | INFO | [Static] Quét Information Disclosure: https://hcmussh.edu.vn/
+2025-11-07 19:11:03,882 | INFO | [Static] Quét Directory Listing: https://hcmussh.edu.vn/
+2025-11-07 19:11:36,106 | INFO | [Static] Quét Misconfiguration: https://hcmussh.edu.vn/
+2025-11-07 19:11:49,406 | INFO | T\u1ed5ng s\u1ed1 l\u1ed7 h\u1ed5ng phát hi\u1ec7n: 0
+2025-11-07 19:11:49,406 | INFO | ========== K\u1ebeT THÚC QUÉT ==========
+
+2025-11-07 19:11:49,406 | INFO | 127.0.0.1 - - [07/Nov/2025 19:11:49] "POST /api/task HTTP/1.1" 200 -
+2025-11-07 19:19:01,319 | INFO |  * Detected change in 'D:\\beforetoweb\\backend\\src\\controllers\\controllers.py', reloading
+2025-11-07 19:19:01,854 | INFO |  * Restarting with stat
+2025-11-07 19:19:05,290 | WARNING |  * Debugger is active!
+2025-11-07 19:19:05,294 | INFO |  * Debugger PIN: 141-129-209
+2025-11-07 19:21:47,872 | INFO | ========== B\u1eaeT \u0110\u1ea6U QUÉT ==========
+2025-11-07 19:21:47,872 | INFO | URL: https://hcmussh.edu.vn/
+2025-11-07 19:21:47,872 | INFO | Category: ['absolute_url', 'static_url']
+2025-11-07 19:21:47,872 | INFO | >>> Quét STATIC HOLES
+2025-11-07 19:21:47,872 | INFO | [Static] Quét Information Disclosure: https://hcmussh.edu.vn/
+2025-11-07 19:22:25,720 | INFO | [Static] Quét Directory Listing: https://hcmussh.edu.vn/
+2025-11-07 19:22:52,283 | INFO | 127.0.0.1 - - [07/Nov/2025 19:22:52] "[35m[1mPOST /api/task HTTP/1.1[0m" 500 -
+2025-11-07 20:50:08,366 | INFO |  * Detected change in 'D:\\beforetoweb\\backend\\src\\controllers\\controllers.py', reloading
+2025-11-07 20:50:08,930 | INFO |  * Restarting with stat
+2025-11-07 20:50:10,428 | WARNING |  * Debugger is active!
+2025-11-07 20:50:10,432 | INFO |  * Debugger PIN: 141-129-209
+2025-11-07 20:50:21,545 | INFO | ========== B\u1eaeT \u0110\u1ea6U QUÉT ==========
+2025-11-07 20:50:21,545 | INFO | URL: https://hcmussh.edu.vn/
+2025-11-07 20:50:21,546 | INFO | Category: ['absolute_url', 'static_url']
+2025-11-07 20:50:21,546 | INFO | >>> Quét STATIC HOLES
+2025-11-07 20:50:21,546 | INFO | [Static] Quét Information Disclosure: https://hcmussh.edu.vn/
+2025-11-07 20:51:02,657 | INFO | [Static] Quét Directory Listing: https://hcmussh.edu.vn/
+2025-11-07 20:51:32,042 | INFO | [Static] Quét Misconfiguration: https://hcmussh.edu.vn/
+2025-11-07 20:51:35,071 | INFO | \u26a0\ufe0f [Misconfig] Header nh\u1ea1y c\u1ea3m: Server=Apache
+2025-11-07 20:51:44,739 | INFO | T\u1ed5ng s\u1ed1 l\u1ed7 h\u1ed5ng phát hi\u1ec7n: 1
+2025-11-07 20:51:44,739 | INFO | ========== K\u1ebeT THÚC QUÉT ==========
+
+2025-11-07 20:51:44,740 | INFO | 127.0.0.1 - - [07/Nov/2025 20:51:44] "POST /api/task HTTP/1.1" 200 -
+2025-11-07 20:55:02,082 | INFO | ========== B\u1eaeT \u0110\u1ea6U QUÉT ==========
+2025-11-07 20:55:02,082 | INFO | URL: https://daotao.vku.udn.vn/
+2025-11-07 20:55:02,082 | INFO | Category: ['absolute_url', 'static_url']
+2025-11-07 20:55:02,083 | INFO | >>> Quét STATIC HOLES
+2025-11-07 20:55:02,083 | INFO | [Static] Quét Information Disclosure: https://daotao.vku.udn.vn/
+2025-11-07 20:55:22,483 | INFO | \u26a0\ufe0f [Info Disclosure] Phát hi\u1ec7n: https://daotao.vku.udn.vn/package-lock.json
+2025-11-07 20:55:46,803 | WARNING | Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ReadTimeoutError("HTTPSConnectionPool(host='daotao.vku.udn.vn', port=443): Read timed out. (read timeout=7)")': /web.config
+2025-11-07 20:55:53,581 | INFO | \u26a0\ufe0f [Info Disclosure] Phát hi\u1ec7n: https://daotao.vku.udn.vn/README.md
+2025-11-07 20:56:03,618 | INFO | [Static] Quét Directory Listing: https://daotao.vku.udn.vn/
+2025-11-07 20:56:13,880 | INFO | [Dir Listing] Có d\u1ea5u hi\u1ec7u kh\u1ea3 nghi: https://daotao.vku.udn.vn/uploads/
+2025-11-07 20:56:40,095 | INFO | [Static] Quét Misconfiguration: https://daotao.vku.udn.vn/
+2025-11-07 20:56:45,732 | INFO | \u26a0\ufe0f [Misconfig] Header nh\u1ea1y c\u1ea3m: Server=Apache
+2025-11-07 20:56:55,645 | INFO | T\u1ed5ng s\u1ed1 l\u1ed7 h\u1ed5ng phát hi\u1ec7n: 4
+2025-11-07 20:56:55,645 | INFO | ========== K\u1ebeT THÚC QUÉT ==========
+
+2025-11-07 20:56:55,646 | INFO | 127.0.0.1 - - [07/Nov/2025 20:56:55] "POST /api/task HTTP/1.1" 200 -
+2025-11-11 17:28:43,659 | INFO | [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5001
+2025-11-11 17:28:43,660 | INFO | [33mPress CTRL+C to quit[0m
+2025-11-11 17:28:43,662 | INFO |  * Restarting with stat
+2025-11-11 17:28:44,713 | WARNING |  * Debugger is active!
+2025-11-11 17:28:44,723 | INFO |  * Debugger PIN: 133-634-996
+2025-11-11 17:30:57,223 | INFO | 127.0.0.1 - - [11/Nov/2025 17:30:57] "GET / HTTP/1.1" 200 -
+2025-11-11 17:30:57,382 | INFO | 127.0.0.1 - - [11/Nov/2025 17:30:57] "GET /static/css.css HTTP/1.1" 200 -
+2025-11-11 17:30:57,397 | INFO | 127.0.0.1 - - [11/Nov/2025 17:30:57] "GET /static/js.js HTTP/1.1" 200 -
+2025-11-11 17:30:58,733 | INFO | 127.0.0.1 - - [11/Nov/2025 17:30:58] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-11-11 17:31:23,456 | INFO | ========== B\u1eaeT \u0110\u1ea6U QUÉT ==========
+2025-11-11 17:31:23,457 | INFO | URL: https://daotao.vku.udn.vn/
+2025-11-11 17:31:23,457 | INFO | Category: ['absolute_url', 'static_url']
+2025-11-11 17:31:23,457 | INFO | >>> Quét STATIC HOLES
+2025-11-11 17:31:23,457 | INFO | [Static] Quét Information Disclosure: https://daotao.vku.udn.vn/
+2025-11-11 17:31:25,218 | INFO | 127.0.0.1 - - [11/Nov/2025 17:31:25] "GET / HTTP/1.1" 200 -
+2025-11-11 17:31:25,283 | INFO | 127.0.0.1 - - [11/Nov/2025 17:31:25] "[36mGET /static/css.css HTTP/1.1[0m" 304 -
+2025-11-11 17:31:25,287 | INFO | 127.0.0.1 - - [11/Nov/2025 17:31:25] "[36mGET /static/js.js HTTP/1.1[0m" 304 -
+2025-11-11 17:31:41,796 | INFO | \u26a0\ufe0f [Info Disclosure] Phát hi\u1ec7n: https://daotao.vku.udn.vn/package-lock.json
+2025-11-11 17:32:02,330 | INFO | \u26a0\ufe0f [Info Disclosure] Phát hi\u1ec7n: https://daotao.vku.udn.vn/README.md
+2025-11-11 17:32:09,287 | INFO | [Static] Quét Directory Listing: https://daotao.vku.udn.vn/
+2025-11-11 17:32:18,899 | INFO | ========== B\u1eaeT \u0110\u1ea6U QUÉT ==========
+2025-11-11 17:32:18,900 | INFO | URL: https://daotao.vku.udn.vn/
+2025-11-11 17:32:18,900 | INFO | Category: ['absolute_url', 'static_url']
+2025-11-11 17:32:18,900 | INFO | >>> Quét STATIC HOLES
+2025-11-11 17:32:18,900 | INFO | [Static] Quét Information Disclosure: https://daotao.vku.udn.vn/
+2025-11-11 17:32:36,497 | INFO | [Static] Quét Misconfiguration: https://daotao.vku.udn.vn/
+2025-11-11 17:32:38,801 | INFO | \u26a0\ufe0f [Info Disclosure] Phát hi\u1ec7n: https://daotao.vku.udn.vn/package-lock.json
+2025-11-11 17:32:40,106 | INFO | \u26a0\ufe0f [Misconfig] Header nh\u1ea1y c\u1ea3m: Server=Apache
+2025-11-11 17:32:41,238 | INFO | T\u1ed5ng s\u1ed1 l\u1ed7 h\u1ed5ng phát hi\u1ec7n: 3
+2025-11-11 17:32:41,238 | INFO | ========== K\u1ebeT THÚC QUÉT ==========
+
+2025-11-11 17:32:41,239 | INFO | 127.0.0.1 - - [11/Nov/2025 17:32:41] "POST /api/task/ HTTP/1.1" 200 -
+2025-11-11 17:32:58,956 | INFO | \u26a0\ufe0f [Info Disclosure] Phát hi\u1ec7n: https://daotao.vku.udn.vn/README.md
+2025-11-11 17:33:04,128 | INFO | [Static] Quét Directory Listing: https://daotao.vku.udn.vn/
+2025-11-11 17:33:34,108 | INFO | [Static] Quét Misconfiguration: https://daotao.vku.udn.vn/
+2025-11-11 17:33:36,917 | INFO | \u26a0\ufe0f [Misconfig] Header nh\u1ea1y c\u1ea3m: Server=Apache
+2025-11-11 17:33:36,983 | INFO | T\u1ed5ng s\u1ed1 l\u1ed7 h\u1ed5ng phát hi\u1ec7n: 3
+2025-11-11 17:33:36,983 | INFO | ========== K\u1ebeT THÚC QUÉT ==========
+
+2025-11-11 17:33:36,984 | INFO | 127.0.0.1 - - [11/Nov/2025 17:33:36] "POST /api/task HTTP/1.1" 200 -

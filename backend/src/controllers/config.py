@@ -1,0 +1,5 @@
+# config.py
+USER_AGENT = "SecurityScanner/2.0"
+DEFAULT_TIMEOUT = 7
+REQUEST_DELAY_MIN = 0.5
+REQUEST_DELAY_MAX = 1.2

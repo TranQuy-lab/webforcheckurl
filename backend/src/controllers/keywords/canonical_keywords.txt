@@ -1,4 +1,0 @@
-canonical
-canonical_url
-rel=canonical
-seo_canonical

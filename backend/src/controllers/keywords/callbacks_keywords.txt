@@ -1,7 +1,0 @@
-callback
-oauth
-webhook
-redirect
-return
-cb
-
