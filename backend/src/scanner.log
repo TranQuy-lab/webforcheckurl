@@ -347,3 +347,489 @@
 2025-11-11 20:34:07,966 | INFO | ========== K\u1ebeT THÚC QUÉT ==========
 
 2025-11-11 20:34:07,966 | INFO | 127.0.0.1 - - [11/Nov/2025 20:34:07] "POST /api/task/ HTTP/1.1" 200 -
+2025-11-11 22:14:08,340 | INFO | [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5001
+2025-11-11 22:14:08,341 | INFO | [33mPress CTRL+C to quit[0m
+2025-11-11 22:14:08,343 | INFO |  * Restarting with stat
+2025-11-11 22:14:09,391 | WARNING |  * Debugger is active!
+2025-11-11 22:14:09,398 | INFO |  * Debugger PIN: 129-329-525
+2025-11-12 07:44:33,278 | INFO | [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5001
+2025-11-12 07:44:33,279 | INFO | [33mPress CTRL+C to quit[0m
+2025-11-12 07:44:33,281 | INFO |  * Restarting with stat
+2025-11-12 07:44:34,579 | WARNING |  * Debugger is active!
+2025-11-12 07:44:34,585 | INFO |  * Debugger PIN: 129-329-525
+2025-11-12 07:44:50,673 | INFO | 127.0.0.1 - - [12/Nov/2025 07:44:50] "[33mGET /api/task/4 HTTP/1.1[0m" 404 -
+2025-11-12 07:44:52,010 | INFO | 127.0.0.1 - - [12/Nov/2025 07:44:52] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-11-12 07:44:58,424 | INFO | 127.0.0.1 - - [12/Nov/2025 07:44:58] "GET / HTTP/1.1" 200 -
+2025-11-12 07:44:58,585 | INFO | 127.0.0.1 - - [12/Nov/2025 07:44:58] "GET /static/css.css HTTP/1.1" 200 -
+2025-11-12 07:44:58,612 | INFO | 127.0.0.1 - - [12/Nov/2025 07:44:58] "GET /static/js.js HTTP/1.1" 200 -
+2025-11-12 07:52:34,089 | INFO | ========== B\u1eaeT \u0110\u1ea6U QUÉT ==========
+2025-11-12 07:52:34,089 | INFO | URL: https://daotao.vku.udn.vn/
+2025-11-12 07:52:34,089 | INFO | Category: ['absolute_url', 'static_url']
+2025-11-12 07:52:34,089 | INFO | >>> Quét STATIC HOLES
+2025-11-12 07:52:34,090 | INFO | [Static] Quét Information Disclosure: https://daotao.vku.udn.vn/
+2025-11-12 07:52:53,356 | INFO | \u26a0\ufe0f [Info Disclosure] Phát hi\u1ec7n: https://daotao.vku.udn.vn/package-lock.json
+2025-11-12 07:53:13,346 | INFO | \u26a0\ufe0f [Info Disclosure] Phát hi\u1ec7n: https://daotao.vku.udn.vn/README.md
+2025-11-12 07:53:19,264 | INFO | [Static] Quét Directory Listing: https://daotao.vku.udn.vn/
+2025-11-12 07:53:50,803 | INFO | [Static] Quét Misconfiguration: https://daotao.vku.udn.vn/
+2025-11-12 07:53:58,888 | INFO | \u26a0\ufe0f [Misconfig] Header nh\u1ea1y c\u1ea3m: Server=Apache
+2025-11-12 07:54:01,126 | INFO | T\u1ed5ng s\u1ed1 l\u1ed7 h\u1ed5ng phát hi\u1ec7n: 3
+2025-11-12 07:54:01,126 | INFO | ========== K\u1ebeT THÚC QUÉT ==========
+
+2025-11-12 07:54:01,126 | INFO | 127.0.0.1 - - [12/Nov/2025 07:54:01] "POST /api/task/ HTTP/1.1" 200 -
+2025-11-12 08:29:29,619 | INFO | 127.0.0.1 - - [12/Nov/2025 08:29:29] "GET / HTTP/1.1" 200 -
+2025-11-12 08:29:29,685 | INFO | 127.0.0.1 - - [12/Nov/2025 08:29:29] "[36mGET /static/css.css HTTP/1.1[0m" 304 -
+2025-11-12 08:29:29,705 | INFO | 127.0.0.1 - - [12/Nov/2025 08:29:29] "[36mGET /static/js.js HTTP/1.1[0m" 304 -
+2025-11-12 08:29:43,529 | INFO | ========== B\u1eaeT \u0110\u1ea6U QUÉT ==========
+2025-11-12 08:29:43,529 | INFO | URL: https://daotao.vku.udn.vn/
+2025-11-12 08:29:43,529 | INFO | Category: ['absolute_url', 'static_url']
+2025-11-12 08:29:43,529 | INFO | >>> Quét STATIC HOLES
+2025-11-12 08:29:43,530 | INFO | [Static] Quét Information Disclosure: https://daotao.vku.udn.vn/
+2025-11-12 08:30:01,853 | INFO | \u26a0\ufe0f [Info Disclosure] Phát hi\u1ec7n: https://daotao.vku.udn.vn/package-lock.json
+2025-11-12 08:30:22,549 | INFO | \u26a0\ufe0f [Info Disclosure] Phát hi\u1ec7n: https://daotao.vku.udn.vn/README.md
+2025-11-12 08:30:28,018 | INFO | [Static] Quét Directory Listing: https://daotao.vku.udn.vn/
+2025-11-12 08:30:56,775 | INFO | [Static] Quét Misconfiguration: https://daotao.vku.udn.vn/
+2025-11-12 08:30:59,876 | INFO | \u26a0\ufe0f [Misconfig] Header nh\u1ea1y c\u1ea3m: Server=Apache
+2025-11-12 08:31:01,249 | INFO | T\u1ed5ng s\u1ed1 l\u1ed7 h\u1ed5ng phát hi\u1ec7n: 3
+2025-11-12 08:31:01,249 | INFO | ========== K\u1ebeT THÚC QUÉT ==========
+
+2025-11-12 08:31:01,250 | INFO | 127.0.0.1 - - [12/Nov/2025 08:31:01] "POST /api/task/ HTTP/1.1" 200 -
+2025-11-15 15:10:25,909 | INFO | [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5001
+2025-11-15 15:10:25,909 | INFO | [33mPress CTRL+C to quit[0m
+2025-11-15 15:10:25,912 | INFO |  * Restarting with stat
+2025-11-15 15:10:26,948 | WARNING |  * Debugger is active!
+2025-11-15 15:10:26,956 | INFO |  * Debugger PIN: 133-634-996
+2025-11-15 15:12:12,680 | INFO | [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5001
+2025-11-15 15:12:12,680 | INFO | [33mPress CTRL+C to quit[0m
+2025-11-15 15:12:12,683 | INFO |  * Restarting with stat
+2025-11-15 15:12:13,763 | WARNING |  * Debugger is active!
+2025-11-15 15:12:13,768 | INFO |  * Debugger PIN: 133-634-996
+2025-11-15 15:12:27,815 | INFO | 127.0.0.1 - - [15/Nov/2025 15:12:27] "GET / HTTP/1.1" 200 -
+2025-11-15 15:12:27,959 | INFO | 127.0.0.1 - - [15/Nov/2025 15:12:27] "GET /static/css.css HTTP/1.1" 200 -
+2025-11-15 15:12:27,989 | INFO | 127.0.0.1 - - [15/Nov/2025 15:12:27] "GET /static/js.js HTTP/1.1" 200 -
+2025-11-15 15:12:29,537 | INFO | 127.0.0.1 - - [15/Nov/2025 15:12:29] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-11-15 15:12:33,011 | INFO | ========== B\u1eaeT \u0110\u1ea6U QUÉT ==========
+2025-11-15 15:12:33,012 | INFO | URL: https://daotao.vku.udn.vn/
+2025-11-15 15:12:33,012 | INFO | Category: ['absolute_url', 'static_url']
+2025-11-15 15:12:33,012 | INFO | >>> Quét STATIC HOLES
+2025-11-15 15:12:33,013 | INFO | [Static] Quét Information Disclosure: https://daotao.vku.udn.vn/
+2025-11-15 15:12:50,729 | INFO | \u26a0\ufe0f [Info Disclosure] Phát hi\u1ec7n: https://daotao.vku.udn.vn/package-lock.json
+2025-11-15 15:13:10,707 | INFO | \u26a0\ufe0f [Info Disclosure] Phát hi\u1ec7n: https://daotao.vku.udn.vn/README.md
+2025-11-15 15:13:17,161 | INFO | [Static] Quét Directory Listing: https://daotao.vku.udn.vn/
+2025-11-15 15:13:48,090 | INFO | [Static] Quét Misconfiguration: https://daotao.vku.udn.vn/
+2025-11-15 15:13:51,445 | INFO | \u26a0\ufe0f [Misconfig] Header nh\u1ea1y c\u1ea3m: Server=Apache
+2025-11-15 15:13:52,282 | INFO | T\u1ed5ng s\u1ed1 l\u1ed7 h\u1ed5ng phát hi\u1ec7n: 3
+2025-11-15 15:13:52,282 | INFO | ========== K\u1ebeT THÚC QUÉT ==========
+
+2025-11-15 15:13:52,283 | INFO | 127.0.0.1 - - [15/Nov/2025 15:13:52] "POST /api/task/ HTTP/1.1" 200 -
+2025-11-15 20:36:16,093 | INFO | [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5001
+2025-11-15 20:36:16,094 | INFO | [33mPress CTRL+C to quit[0m
+2025-11-15 20:36:16,096 | INFO |  * Restarting with stat
+2025-11-15 20:36:17,410 | WARNING |  * Debugger is active!
+2025-11-15 20:36:17,416 | INFO |  * Debugger PIN: 133-634-996
+2025-11-15 20:36:44,873 | INFO | 127.0.0.1 - - [15/Nov/2025 20:36:44] "[31m[1mPOST /api/task HTTP/1.1[0m" 400 -
+2025-11-15 23:15:06,698 | INFO | ========== B\u1eaeT \u0110\u1ea6U QUÉT ==========
+2025-11-15 23:15:06,700 | INFO | URL: https://gemini.google.com/u/3/app/5015d014595a65f9?_gl=1*1yv2idi*_gcl_au*MTI5NjgxMzEzNS4xNzU4NzYwMzc5Ljg0MDU4MDA3NC4xNzU5ODg4ODg5LjE3NTk4ODg4ODg.*_ga*NDY4MDM1MjA2LjE3NTg3NjAzODA.*_ga_WC57KJ50ZZ*czE3NTk4ODc1NzYkbzIkZzEkdDE3NTk4ODg4OTYkajE3JGwwJGgw
+2025-11-15 23:15:06,700 | INFO | Category: ['absolute_url', 'dynamic_url']
+2025-11-15 23:15:06,700 | INFO | >>> Quét DYNAMIC HOLES
+2025-11-15 23:15:06,702 | INFO | [Dynamic] Quét SQL Injection: https://gemini.google.com/u/3/app/5015d014595a65f9?_gl=1*1yv2idi*_gcl_au*MTI5NjgxMzEzNS4xNzU4NzYwMzc5Ljg0MDU4MDA3NC4xNzU5ODg4ODg5LjE3NTk4ODg4ODg.*_ga*NDY4MDM1MjA2LjE3NTg3NjAzODA.*_ga_WC57KJ50ZZ*czE3NTk4ODc1NzYkbzIkZzEkdDE3NTk4ODg4OTYkajE3JGwwJGgw
+2025-11-15 23:15:26,473 | INFO | [Dynamic] Quét XSS: https://gemini.google.com/u/3/app/5015d014595a65f9?_gl=1*1yv2idi*_gcl_au*MTI5NjgxMzEzNS4xNzU4NzYwMzc5Ljg0MDU4MDA3NC4xNzU5ODg4ODg5LjE3NTk4ODg4ODg.*_ga*NDY4MDM1MjA2LjE3NTg3NjAzODA.*_ga_WC57KJ50ZZ*czE3NTk4ODc1NzYkbzIkZzEkdDE3NTk4ODg4OTYkajE3JGwwJGgw
+2025-11-15 23:15:34,066 | INFO | [Dynamic] Quét Broken Authentication: https://gemini.google.com/u/3/app/5015d014595a65f9?_gl=1*1yv2idi*_gcl_au*MTI5NjgxMzEzNS4xNzU4NzYwMzc5Ljg0MDU4MDA3NC4xNzU5ODg4ODg5LjE3NTk4ODg4ODg.*_ga*NDY4MDM1MjA2LjE3NTg3NjAzODA.*_ga_WC57KJ50ZZ*czE3NTk4ODc1NzYkbzIkZzEkdDE3NTk4ODg4OTYkajE3JGwwJGgw
+2025-11-15 23:15:38,003 | INFO | [Dynamic] Quét IDOR: https://gemini.google.com/u/3/app/5015d014595a65f9?_gl=1*1yv2idi*_gcl_au*MTI5NjgxMzEzNS4xNzU4NzYwMzc5Ljg0MDU4MDA3NC4xNzU5ODg4ODg5LjE3NTk4ODg4ODg.*_ga*NDY4MDM1MjA2LjE3NTg3NjAzODA.*_ga_WC57KJ50ZZ*czE3NTk4ODc1NzYkbzIkZzEkdDE3NTk4ODg4OTYkajE3JGwwJGgw
+2025-11-15 23:15:48,587 | INFO | \u26a0\ufe0f [IDOR] Phát hi\u1ec7n t\u1ea1i: https://gemini.google.com/u/3/app/5015d014595a65f9?_gl=1*1yv2idi*_gcl_au*MTI5NjgxMzEzNS4xNzU4NzYwMzc5Ljg0MDU4MDA3NC4xNzU5ODg4ODg5LjE3NTk4ODg4ODg.*_ga*NDY4MDM1MjA2LjE3NTg3NjAzODA.*_ga_WC57KJ50ZZ*czE3NTk4ODc1NzYkbzIkZzEkdDE3NTk4ODg4OTYkajE3JGwwJGgw
+2025-11-15 23:15:51,053 | INFO | T\u1ed5ng s\u1ed1 l\u1ed7 h\u1ed5ng phát hi\u1ec7n: 2
+2025-11-15 23:15:51,053 | INFO | ========== K\u1ebeT THÚC QUÉT ==========
+
+2025-11-15 23:15:51,054 | INFO | 127.0.0.1 - - [15/Nov/2025 23:15:51] "POST /api/task HTTP/1.1" 200 -
+2025-11-16 10:12:02,145 | INFO | [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5001
+2025-11-16 10:12:02,146 | INFO | [33mPress CTRL+C to quit[0m
+2025-11-16 10:12:02,150 | INFO |  * Restarting with stat
+2025-11-16 10:12:03,647 | WARNING |  * Debugger is active!
+2025-11-16 10:12:03,657 | INFO |  * Debugger PIN: 141-129-209
+2025-11-16 10:13:54,277 | INFO | ========== B\u1eaeT \u0110\u1ea6U QUÉT ==========
+2025-11-16 10:13:54,277 | INFO | URL: https://daotao.vku.udn.vn/sv/lich-hoc
+2025-11-16 10:13:54,278 | INFO | Category: ['absolute_url', 'static_url']
+2025-11-16 10:13:54,278 | INFO | >>> Quét STATIC HOLES
+2025-11-16 10:13:54,278 | INFO | [Static] Quét Information Disclosure: https://daotao.vku.udn.vn/sv/lich-hoc
+2025-11-16 10:14:12,161 | INFO | \u26a0\ufe0f [Info Disclosure] Phát hi\u1ec7n: https://daotao.vku.udn.vn/package-lock.json
+2025-11-16 10:14:31,376 | INFO | \u26a0\ufe0f [Info Disclosure] Phát hi\u1ec7n: https://daotao.vku.udn.vn/README.md
+2025-11-16 10:14:51,977 | INFO | [Static] Quét Directory Listing: https://daotao.vku.udn.vn/sv/lich-hoc
+2025-11-16 10:15:23,221 | INFO | [Static] Quét Misconfiguration: https://daotao.vku.udn.vn/sv/lich-hoc
+2025-11-16 10:15:26,293 | INFO | \u26a0\ufe0f [Misconfig] Header nh\u1ea1y c\u1ea3m: Server=Apache
+2025-11-16 10:15:27,062 | INFO | T\u1ed5ng s\u1ed1 l\u1ed7 h\u1ed5ng phát hi\u1ec7n: 3
+2025-11-16 10:15:27,062 | INFO | ========== K\u1ebeT THÚC QUÉT ==========
+
+2025-11-16 10:15:27,063 | INFO | 127.0.0.1 - - [16/Nov/2025 10:15:27] "POST /api/task HTTP/1.1" 200 -
+2025-11-16 10:25:56,929 | INFO | 127.0.0.1 - - [16/Nov/2025 10:25:56] "GET / HTTP/1.1" 200 -
+2025-11-16 10:25:57,077 | INFO | 127.0.0.1 - - [16/Nov/2025 10:25:57] "GET /static/css.css HTTP/1.1" 200 -
+2025-11-16 10:25:57,145 | INFO | 127.0.0.1 - - [16/Nov/2025 10:25:57] "GET /static/js.js HTTP/1.1" 200 -
+2025-11-16 10:25:58,937 | INFO | 127.0.0.1 - - [16/Nov/2025 10:25:58] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-11-16 21:05:06,167 | INFO | ========== B\u1eaeT \u0110\u1ea6U QUÉT ==========
+2025-11-16 21:05:06,168 | INFO | URL: https://daotao.vku.udn.vn/
+2025-11-16 21:05:06,168 | INFO | Category: ['absolute_url', 'static_url']
+2025-11-16 21:05:06,168 | INFO | >>> Quét STATIC HOLES
+2025-11-16 21:05:06,171 | INFO | [Static] Quét Information Disclosure: https://daotao.vku.udn.vn/
+2025-11-16 21:05:27,519 | INFO | \u26a0\ufe0f [Info Disclosure] Phát hi\u1ec7n: https://daotao.vku.udn.vn/package-lock.json
+2025-11-16 21:05:47,721 | INFO | \u26a0\ufe0f [Info Disclosure] Phát hi\u1ec7n: https://daotao.vku.udn.vn/README.md
+2025-11-16 21:05:52,740 | INFO | [Static] Quét Directory Listing: https://daotao.vku.udn.vn/
+2025-11-16 21:06:23,460 | INFO | [Static] Quét Misconfiguration: https://daotao.vku.udn.vn/
+2025-11-16 21:06:27,462 | INFO | \u26a0\ufe0f [Misconfig] Header nh\u1ea1y c\u1ea3m: Server=Apache
+2025-11-16 21:06:28,776 | INFO | T\u1ed5ng s\u1ed1 l\u1ed7 h\u1ed5ng phát hi\u1ec7n: 3
+2025-11-16 21:06:28,777 | INFO | ========== K\u1ebeT THÚC QUÉT ==========
+
+2025-11-16 21:06:28,779 | INFO | 127.0.0.1 - - [16/Nov/2025 21:06:28] "POST /api/task/ HTTP/1.1" 200 -
+2025-11-18 20:06:21,691 | INFO | [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5001
+2025-11-18 20:06:21,692 | INFO | [33mPress CTRL+C to quit[0m
+2025-11-18 20:06:21,700 | INFO |  * Restarting with stat
+2025-11-18 20:06:23,090 | WARNING |  * Debugger is active!
+2025-11-18 20:06:23,097 | INFO |  * Debugger PIN: 141-129-209
+2025-11-18 20:06:41,799 | INFO | ========== B\u1eaeT \u0110\u1ea6U QUÉT ==========
+2025-11-18 20:06:41,800 | INFO | URL: https://daotao.vku.udn.vn
+2025-11-18 20:06:41,800 | INFO | Category: ['absolute_url', 'static_url']
+2025-11-18 20:06:41,800 | INFO | >>> Quét STATIC HOLES
+2025-11-18 20:06:41,801 | INFO | [Static] Quét Information Disclosure: https://daotao.vku.udn.vn
+2025-11-18 20:07:01,695 | INFO | \u26a0\ufe0f [Info Disclosure] Phát hi\u1ec7n: https://daotao.vku.udn.vn/package-lock.json
+2025-11-18 20:07:22,246 | INFO | \u26a0\ufe0f [Info Disclosure] Phát hi\u1ec7n: https://daotao.vku.udn.vn/README.md
+2025-11-18 20:07:28,717 | INFO | [Static] Quét Directory Listing: https://daotao.vku.udn.vn
+2025-11-18 20:07:58,700 | INFO | [Static] Quét Misconfiguration: https://daotao.vku.udn.vn
+2025-11-18 20:08:02,410 | INFO | \u26a0\ufe0f [Misconfig] Header nh\u1ea1y c\u1ea3m: Server=Apache
+2025-11-18 20:08:03,237 | INFO | T\u1ed5ng s\u1ed1 l\u1ed7 h\u1ed5ng phát hi\u1ec7n: 3
+2025-11-18 20:08:03,237 | INFO | ========== K\u1ebeT THÚC QUÉT ==========
+
+2025-11-18 20:08:03,240 | INFO | 127.0.0.1 - - [18/Nov/2025 20:08:03] "POST /api/task HTTP/1.1" 200 -
+2025-11-18 22:53:09,153 | INFO | [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5001
+2025-11-18 22:53:09,154 | INFO | [33mPress CTRL+C to quit[0m
+2025-11-18 22:53:09,158 | INFO |  * Restarting with stat
+2025-11-18 22:53:10,697 | WARNING |  * Debugger is active!
+2025-11-18 22:53:10,703 | INFO |  * Debugger PIN: 141-129-209
+2025-11-18 22:53:23,667 | INFO | 127.0.0.1 - - [18/Nov/2025 22:53:23] "GET / HTTP/1.1" 200 -
+2025-11-18 22:53:23,844 | INFO | 127.0.0.1 - - [18/Nov/2025 22:53:23] "GET /static/css.css HTTP/1.1" 200 -
+2025-11-18 22:53:23,879 | INFO | 127.0.0.1 - - [18/Nov/2025 22:53:23] "GET /static/js.js HTTP/1.1" 200 -
+2025-11-18 22:53:26,042 | INFO | 127.0.0.1 - - [18/Nov/2025 22:53:26] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-11-18 22:53:29,961 | INFO | ========== B\u1eaeT \u0110\u1ea6U QUÉT ==========
+2025-11-18 22:53:29,961 | INFO | URL: https://daotao.vku.udn.vn/
+2025-11-18 22:53:29,962 | INFO | Category: ['absolute_url', 'static_url']
+2025-11-18 22:53:29,962 | INFO | >>> Quét STATIC HOLES
+2025-11-18 22:53:29,962 | INFO | [Static] Quét Information Disclosure: https://daotao.vku.udn.vn/
+2025-11-18 22:53:48,698 | INFO | \u26a0\ufe0f [Info Disclosure] Phát hi\u1ec7n: https://daotao.vku.udn.vn/package-lock.json
+2025-11-18 22:54:10,766 | INFO | \u26a0\ufe0f [Info Disclosure] Phát hi\u1ec7n: https://daotao.vku.udn.vn/README.md
+2025-11-18 22:54:16,378 | INFO | [Static] Quét Directory Listing: https://daotao.vku.udn.vn/
+2025-11-18 22:54:46,710 | INFO | [Static] Quét Misconfiguration: https://daotao.vku.udn.vn/
+2025-11-18 22:54:50,277 | INFO | \u26a0\ufe0f [Misconfig] Header nh\u1ea1y c\u1ea3m: Server=Apache
+2025-11-18 22:54:51,775 | INFO | T\u1ed5ng s\u1ed1 l\u1ed7 h\u1ed5ng phát hi\u1ec7n: 3
+2025-11-18 22:54:51,775 | INFO | ========== K\u1ebeT THÚC QUÉT ==========
+
+2025-11-18 22:54:51,776 | INFO | 127.0.0.1 - - [18/Nov/2025 22:54:51] "POST /api/task/ HTTP/1.1" 200 -
+2025-11-19 23:04:53,086 | INFO | [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5001
+2025-11-19 23:04:53,087 | INFO | [33mPress CTRL+C to quit[0m
+2025-11-19 23:04:53,090 | INFO |  * Restarting with stat
+2025-11-19 23:04:54,369 | WARNING |  * Debugger is active!
+2025-11-19 23:04:54,377 | INFO |  * Debugger PIN: 129-329-525
+2025-11-19 23:04:58,778 | INFO | 127.0.0.1 - - [19/Nov/2025 23:04:58] "GET / HTTP/1.1" 200 -
+2025-11-19 23:04:58,915 | INFO | 127.0.0.1 - - [19/Nov/2025 23:04:58] "GET /static/css.css HTTP/1.1" 200 -
+2025-11-19 23:04:58,958 | INFO | 127.0.0.1 - - [19/Nov/2025 23:04:58] "GET /static/js.js HTTP/1.1" 200 -
+2025-11-19 23:05:00,691 | INFO | 127.0.0.1 - - [19/Nov/2025 23:05:00] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-11-19 23:05:04,138 | INFO | ========== B\u1eaeT \u0110\u1ea6U QUÉT ==========
+2025-11-19 23:05:04,138 | INFO | URL: https://daotao.vku.udn.vn/
+2025-11-19 23:05:04,138 | INFO | Category: ['absolute_url', 'static_url']
+2025-11-19 23:05:04,138 | INFO | >>> Quét STATIC HOLES
+2025-11-19 23:05:04,140 | INFO | [Static] Quét Information Disclosure: https://daotao.vku.udn.vn/
+2025-11-19 23:05:22,262 | INFO | \u26a0\ufe0f [Info Disclosure] Phát hi\u1ec7n: https://daotao.vku.udn.vn/package-lock.json
+2025-11-19 23:05:40,839 | INFO | \u26a0\ufe0f [Info Disclosure] Phát hi\u1ec7n: https://daotao.vku.udn.vn/README.md
+2025-11-19 23:05:47,079 | INFO | [Static] Quét Directory Listing: https://daotao.vku.udn.vn/
+2025-11-19 23:06:16,457 | INFO | [Static] Quét Misconfiguration: https://daotao.vku.udn.vn/
+2025-11-19 23:06:19,927 | INFO | \u26a0\ufe0f [Misconfig] Header nh\u1ea1y c\u1ea3m: Server=Apache
+2025-11-19 23:06:22,121 | INFO | T\u1ed5ng s\u1ed1 l\u1ed7 h\u1ed5ng phát hi\u1ec7n: 3
+2025-11-19 23:06:22,121 | INFO | ========== K\u1ebeT THÚC QUÉT ==========
+
+2025-11-19 23:06:22,125 | INFO | 127.0.0.1 - - [19/Nov/2025 23:06:22] "POST /api/task/ HTTP/1.1" 200 -
+2025-11-19 23:19:58,606 | INFO | ========== B\u1eaeT \u0110\u1ea6U QUÉT ==========
+2025-11-19 23:19:58,606 | INFO | URL: https://daotao.vku.udn.vn/
+2025-11-19 23:19:58,610 | INFO | Category: ['absolute_url', 'static_url']
+2025-11-19 23:19:58,610 | INFO | >>> Quét STATIC HOLES
+2025-11-19 23:19:58,611 | INFO | [Static] Quét Information Disclosure: https://daotao.vku.udn.vn/
+2025-11-19 23:20:17,821 | INFO | \u26a0\ufe0f [Info Disclosure] Phát hi\u1ec7n: https://daotao.vku.udn.vn/package-lock.json
+2025-11-19 23:20:38,668 | INFO | \u26a0\ufe0f [Info Disclosure] Phát hi\u1ec7n: https://daotao.vku.udn.vn/README.md
+2025-11-19 23:20:44,566 | INFO | [Static] Quét Directory Listing: https://daotao.vku.udn.vn/
+2025-11-19 23:21:14,810 | INFO | [Static] Quét Misconfiguration: https://daotao.vku.udn.vn/
+2025-11-19 23:21:18,575 | INFO | \u26a0\ufe0f [Misconfig] Header nh\u1ea1y c\u1ea3m: Server=Apache
+2025-11-19 23:21:20,329 | INFO | T\u1ed5ng s\u1ed1 l\u1ed7 h\u1ed5ng phát hi\u1ec7n: 3
+2025-11-19 23:21:20,329 | INFO | ========== K\u1ebeT THÚC QUÉT ==========
+
+2025-11-19 23:21:20,330 | INFO | 127.0.0.1 - - [19/Nov/2025 23:21:20] "POST /api/task/ HTTP/1.1" 200 -
+2025-12-01 21:53:05,032 | INFO | [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5001
+2025-12-01 21:53:05,036 | INFO | [33mPress CTRL+C to quit[0m
+2025-12-01 21:53:05,039 | INFO |  * Restarting with stat
+2025-12-01 21:53:06,304 | WARNING |  * Debugger is active!
+2025-12-01 21:53:06,308 | INFO |  * Debugger PIN: 141-129-209
+2025-12-01 21:53:21,912 | INFO | ========== B\u1eaeT \u0110\u1ea6U QUÉT ==========
+2025-12-01 21:53:21,913 | INFO | URL: https://jorhe.cn/emit/404/p
+2025-12-01 21:53:21,913 | INFO | Category: ['absolute_url', 'dynamic_url', 'static_url']
+2025-12-01 21:53:21,913 | INFO | >>> Quét STATIC HOLES
+2025-12-01 21:53:21,914 | INFO | [Static] Quét Information Disclosure: https://jorhe.cn/emit/404/p
+2025-12-01 21:53:24,161 | INFO | \u26a0\ufe0f [Info Disclosure] Phát hi\u1ec7n: https://jorhe.cn/robots.txt
+2025-12-01 21:54:26,776 | INFO | [Static] Quét Directory Listing: https://jorhe.cn/emit/404/p
+2025-12-01 21:54:59,496 | INFO | [Static] Quét Misconfiguration: https://jorhe.cn/emit/404/p
+2025-12-01 21:55:03,466 | INFO | \u26a0\ufe0f [Misconfig] Header nh\u1ea1y c\u1ea3m: Server=cloudflare
+2025-12-01 21:55:03,469 | INFO | >>> Quét DYNAMIC HOLES
+2025-12-01 21:55:03,470 | INFO | [Dynamic] Quét Broken Authentication: https://jorhe.cn/emit/404/p
+2025-12-01 21:55:05,957 | INFO | [Dynamic] Quét IDOR: https://jorhe.cn/emit/404/p
+2025-12-01 21:55:17,112 | INFO | T\u1ed5ng s\u1ed1 l\u1ed7 h\u1ed5ng phát hi\u1ec7n: 2
+2025-12-01 21:55:17,112 | INFO | ========== K\u1ebeT THÚC QUÉT ==========
+
+2025-12-01 21:55:17,113 | INFO | 127.0.0.1 - - [01/Dec/2025 21:55:17] "POST /api/task HTTP/1.1" 200 -
+2025-12-04 19:34:11,503 | INFO | [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5001
+2025-12-04 19:34:11,504 | INFO | [33mPress CTRL+C to quit[0m
+2025-12-04 19:34:11,507 | INFO |  * Restarting with stat
+2025-12-04 19:34:12,654 | WARNING |  * Debugger is active!
+2025-12-04 19:34:12,659 | INFO |  * Debugger PIN: 133-634-996
+2025-12-07 09:03:24,834 | INFO | [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5001
+2025-12-07 09:03:24,835 | INFO | [33mPress CTRL+C to quit[0m
+2025-12-07 09:03:24,837 | INFO |  * Restarting with stat
+2025-12-07 09:03:26,014 | WARNING |  * Debugger is active!
+2025-12-07 09:03:26,021 | INFO |  * Debugger PIN: 141-129-209
+2025-12-07 09:05:28,330 | INFO | 127.0.0.1 - - [07/Dec/2025 09:05:28] "GET / HTTP/1.1" 200 -
+2025-12-07 09:05:28,457 | INFO | 127.0.0.1 - - [07/Dec/2025 09:05:28] "GET /static/css.css HTTP/1.1" 200 -
+2025-12-07 09:05:28,515 | INFO | 127.0.0.1 - - [07/Dec/2025 09:05:28] "GET /static/js.js HTTP/1.1" 200 -
+2025-12-07 09:05:30,030 | INFO | 127.0.0.1 - - [07/Dec/2025 09:05:30] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-12-07 09:05:37,905 | INFO | ========== B\u1eaeT \u0110\u1ea6U QUÉT ==========
+2025-12-07 09:05:37,906 | INFO | URL: https://daotao.vku.udn.vn/
+2025-12-07 09:05:37,906 | INFO | Category: ['absolute_url', 'static_url']
+2025-12-07 09:05:37,906 | INFO | >>> Quét STATIC HOLES
+2025-12-07 09:05:37,906 | INFO | [Static] Quét Information Disclosure: https://daotao.vku.udn.vn/
+2025-12-07 09:05:56,296 | INFO | \u26a0\ufe0f [Info Disclosure] Phát hi\u1ec7n: https://daotao.vku.udn.vn/package-lock.json
+2025-12-07 09:06:16,801 | INFO | \u26a0\ufe0f [Info Disclosure] Phát hi\u1ec7n: https://daotao.vku.udn.vn/README.md
+2025-12-07 09:06:23,593 | INFO | [Static] Quét Directory Listing: https://daotao.vku.udn.vn/
+2025-12-07 09:06:53,648 | INFO | [Static] Quét Misconfiguration: https://daotao.vku.udn.vn/
+2025-12-07 09:06:56,172 | INFO | \u26a0\ufe0f [Misconfig] Header nh\u1ea1y c\u1ea3m: Server=Apache
+2025-12-07 09:06:56,851 | INFO | T\u1ed5ng s\u1ed1 l\u1ed7 h\u1ed5ng phát hi\u1ec7n: 3
+2025-12-07 09:06:56,851 | INFO | ========== K\u1ebeT THÚC QUÉT ==========
+
+2025-12-07 09:06:56,852 | INFO | 127.0.0.1 - - [07/Dec/2025 09:06:56] "POST /api/task/ HTTP/1.1" 200 -
+2025-12-08 22:24:43,629 | INFO | [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5001
+2025-12-08 22:24:43,629 | INFO | [33mPress CTRL+C to quit[0m
+2025-12-08 22:24:43,632 | INFO |  * Restarting with stat
+2025-12-08 22:24:44,746 | WARNING |  * Debugger is active!
+2025-12-08 22:24:44,762 | INFO |  * Debugger PIN: 133-634-996
+2025-12-08 22:25:08,927 | INFO | 127.0.0.1 - - [08/Dec/2025 22:25:08] "GET / HTTP/1.1" 200 -
+2025-12-08 22:25:09,125 | INFO | 127.0.0.1 - - [08/Dec/2025 22:25:09] "GET /static/css.css HTTP/1.1" 200 -
+2025-12-08 22:25:09,141 | INFO | 127.0.0.1 - - [08/Dec/2025 22:25:09] "GET /static/js.js HTTP/1.1" 200 -
+2025-12-08 22:25:11,323 | INFO | 127.0.0.1 - - [08/Dec/2025 22:25:11] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-12-08 22:25:15,026 | INFO | ========== B\u1eaeT \u0110\u1ea6U QUÉT ==========
+2025-12-08 22:25:15,027 | INFO | URL: https://daotao.vku.udn.vn/
+2025-12-08 22:25:15,027 | INFO | Category: ['absolute_url', 'static_url']
+2025-12-08 22:25:15,027 | INFO | >>> Quét STATIC HOLES
+2025-12-08 22:25:15,028 | INFO | [Static] Quét Information Disclosure: https://daotao.vku.udn.vn/
+2025-12-08 22:25:37,555 | INFO | \u26a0\ufe0f [Info Disclosure] Phát hi\u1ec7n: https://daotao.vku.udn.vn/package-lock.json
+2025-12-08 22:26:01,445 | INFO | \u26a0\ufe0f [Info Disclosure] Phát hi\u1ec7n: https://daotao.vku.udn.vn/README.md
+2025-12-08 22:26:08,491 | INFO | [Static] Quét Directory Listing: https://daotao.vku.udn.vn/
+2025-12-08 22:26:44,412 | INFO | [Static] Quét Misconfiguration: https://daotao.vku.udn.vn/
+2025-12-08 22:26:47,932 | INFO | \u26a0\ufe0f [Misconfig] Header nh\u1ea1y c\u1ea3m: Server=Apache
+2025-12-08 22:26:50,792 | INFO | T\u1ed5ng s\u1ed1 l\u1ed7 h\u1ed5ng phát hi\u1ec7n: 3
+2025-12-08 22:26:50,792 | INFO | ========== K\u1ebeT THÚC QUÉT ==========
+
+2025-12-08 22:26:50,805 | INFO | 127.0.0.1 - - [08/Dec/2025 22:26:50] "POST /api/task/ HTTP/1.1" 200 -
+2025-12-08 22:32:14,711 | INFO | ========== B\u1eaeT \u0110\u1ea6U QUÉT ==========
+2025-12-08 22:32:14,711 | INFO | URL: https://gdqpantt.udn.vn/dangnhapdt/
+2025-12-08 22:32:14,711 | INFO | Category: ['absolute_url', 'static_url']
+2025-12-08 22:32:14,712 | INFO | >>> Quét STATIC HOLES
+2025-12-08 22:32:14,712 | INFO | [Static] Quét Information Disclosure: https://gdqpantt.udn.vn/dangnhapdt/
+2025-12-08 22:32:17,681 | INFO | \u26a0\ufe0f [Info Disclosure] Phát hi\u1ec7n: https://gdqpantt.udn.vn/robots.txt
+2025-12-08 22:32:50,459 | WARNING | Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'RemoteDisconnected('Remote end closed connection without response')': /.DS_Store
+2025-12-08 22:33:05,152 | WARNING | Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'RemoteDisconnected('Remote end closed connection without response')': /info.php
+2025-12-08 22:33:11,609 | WARNING | Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'RemoteDisconnected('Remote end closed connection without response')': /test.php
+2025-12-08 22:34:02,212 | INFO | [Static] Quét Directory Listing: https://gdqpantt.udn.vn/dangnhapdt/
+2025-12-08 22:34:33,139 | WARNING | Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'RemoteDisconnected('Remote end closed connection without response')': /tests/
+2025-12-08 22:34:39,893 | WARNING | Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'RemoteDisconnected('Remote end closed connection without response')': /dev/
+2025-12-08 22:35:13,673 | INFO | [Static] Quét Misconfiguration: https://gdqpantt.udn.vn/dangnhapdt/
+2025-12-08 22:35:18,033 | INFO | \u26a0\ufe0f [Misconfig] Header nh\u1ea1y c\u1ea3m: Server=Apache/2
+2025-12-08 22:35:18,033 | INFO | \u26a0\ufe0f [Misconfig] Header nh\u1ea1y c\u1ea3m: X-Powered-By=PHP/7.4.30
+2025-12-08 22:35:19,666 | INFO | T\u1ed5ng s\u1ed1 l\u1ed7 h\u1ed5ng phát hi\u1ec7n: 3
+2025-12-08 22:35:19,667 | INFO | ========== K\u1ebeT THÚC QUÉT ==========
+
+2025-12-08 22:35:19,667 | INFO | 127.0.0.1 - - [08/Dec/2025 22:35:19] "POST /api/task/ HTTP/1.1" 200 -
+2025-12-16 19:36:23,263 | INFO | [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5001
+2025-12-16 19:36:23,263 | INFO | [33mPress CTRL+C to quit[0m
+2025-12-16 19:36:23,265 | INFO |  * Restarting with stat
+2025-12-16 19:36:24,073 | WARNING |  * Debugger is active!
+2025-12-16 19:36:24,079 | INFO |  * Debugger PIN: 541-767-162
+2025-12-16 19:36:43,164 | INFO | 127.0.0.1 - - [16/Dec/2025 19:36:43] "GET / HTTP/1.1" 200 -
+2025-12-16 19:36:43,294 | INFO | 127.0.0.1 - - [16/Dec/2025 19:36:43] "GET /static/css.css HTTP/1.1" 200 -
+2025-12-16 19:36:43,321 | INFO | 127.0.0.1 - - [16/Dec/2025 19:36:43] "GET /static/js.js HTTP/1.1" 200 -
+2025-12-16 19:36:45,176 | INFO | 127.0.0.1 - - [16/Dec/2025 19:36:45] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-12-16 19:37:38,081 | INFO | 127.0.0.1 - - [16/Dec/2025 19:37:38] "GET / HTTP/1.1" 200 -
+2025-12-16 19:37:38,114 | INFO | 127.0.0.1 - - [16/Dec/2025 19:37:38] "[36mGET /static/css.css HTTP/1.1[0m" 304 -
+2025-12-16 19:37:38,125 | INFO | 127.0.0.1 - - [16/Dec/2025 19:37:38] "[36mGET /static/js.js HTTP/1.1[0m" 304 -
+2025-12-16 19:50:04,013 | INFO | [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5001
+2025-12-16 19:50:04,014 | INFO | [33mPress CTRL+C to quit[0m
+2025-12-16 19:50:04,018 | INFO |  * Restarting with stat
+2025-12-16 19:50:04,891 | WARNING |  * Debugger is active!
+2025-12-16 19:50:04,903 | INFO |  * Debugger PIN: 541-767-162
+2025-12-16 19:50:15,259 | INFO | 127.0.0.1 - - [16/Dec/2025 19:50:15] "GET / HTTP/1.1" 200 -
+2025-12-16 19:50:15,400 | INFO | 127.0.0.1 - - [16/Dec/2025 19:50:15] "[36mGET /static/css.css HTTP/1.1[0m" 304 -
+2025-12-16 19:50:15,406 | INFO | 127.0.0.1 - - [16/Dec/2025 19:50:15] "[36mGET /static/js.js HTTP/1.1[0m" 304 -
+2025-12-16 19:54:29,107 | INFO | [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5001
+2025-12-16 19:54:29,107 | INFO | [33mPress CTRL+C to quit[0m
+2025-12-16 19:54:29,107 | INFO |  * Restarting with stat
+2025-12-16 19:54:29,837 | WARNING |  * Debugger is active!
+2025-12-16 19:54:29,855 | INFO |  * Debugger PIN: 541-767-162
+2025-12-16 19:54:40,635 | INFO | 127.0.0.1 - - [16/Dec/2025 19:54:40] "GET / HTTP/1.1" 200 -
+2025-12-16 19:54:40,773 | INFO | 127.0.0.1 - - [16/Dec/2025 19:54:40] "[36mGET /static/js.js HTTP/1.1[0m" 304 -
+2025-12-16 19:54:40,773 | INFO | 127.0.0.1 - - [16/Dec/2025 19:54:40] "[36mGET /static/css.css HTTP/1.1[0m" 304 -
+2025-12-16 19:54:42,606 | INFO | 127.0.0.1 - - [16/Dec/2025 19:54:42] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-12-16 20:19:06,680 | INFO | [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5001
+2025-12-16 20:19:06,681 | INFO | [33mPress CTRL+C to quit[0m
+2025-12-16 20:19:06,684 | INFO |  * Restarting with stat
+2025-12-16 20:19:07,737 | WARNING |  * Debugger is active!
+2025-12-16 20:19:07,749 | INFO |  * Debugger PIN: 141-129-209
+2025-12-16 20:19:13,963 | INFO | 127.0.0.1 - - [16/Dec/2025 20:19:13] "GET / HTTP/1.1" 200 -
+2025-12-16 20:19:14,078 | INFO | 127.0.0.1 - - [16/Dec/2025 20:19:14] "[36mGET /static/css.css HTTP/1.1[0m" 304 -
+2025-12-16 20:19:14,112 | INFO | 127.0.0.1 - - [16/Dec/2025 20:19:14] "[36mGET /static/js.js HTTP/1.1[0m" 304 -
+2025-12-16 20:19:15,659 | INFO | 127.0.0.1 - - [16/Dec/2025 20:19:15] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-12-16 20:32:00,706 | INFO | 127.0.0.1 - - [16/Dec/2025 20:32:00] "GET / HTTP/1.1" 200 -
+2025-12-16 20:32:00,740 | INFO | 127.0.0.1 - - [16/Dec/2025 20:32:00] "[36mGET /static/js.js HTTP/1.1[0m" 304 -
+2025-12-16 20:32:30,546 | INFO | 127.0.0.1 - - [16/Dec/2025 20:32:30] "GET /?url=https://www.w3schools.com/html/tryit.asp?filename%3Dtryhtml_editor HTTP/1.1" 200 -
+2025-12-16 20:32:30,586 | INFO | 127.0.0.1 - - [16/Dec/2025 20:32:30] "[36mGET /static/js.js HTTP/1.1[0m" 304 -
+2025-12-16 20:40:22,689 | INFO | 127.0.0.1 - - [16/Dec/2025 20:40:22] "GET /?url=https://www.w3schools.com/html/tryit.asp?filename%3Dtryhtml_editor HTTP/1.1" 200 -
+2025-12-16 20:40:22,737 | INFO | 127.0.0.1 - - [16/Dec/2025 20:40:22] "[36mGET /static/js.js HTTP/1.1[0m" 304 -
+2025-12-16 20:41:14,047 | INFO | 127.0.0.1 - - [16/Dec/2025 20:41:14] "GET /?url=https://www.w3schools.com/html/tryit.asp?filename%3Dtryhtml_editor HTTP/1.1" 200 -
+2025-12-16 20:41:14,092 | INFO | 127.0.0.1 - - [16/Dec/2025 20:41:14] "[36mGET /static/js.js HTTP/1.1[0m" 304 -
+2025-12-16 21:08:03,003 | INFO | 127.0.0.1 - - [16/Dec/2025 21:08:03] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-12-16 21:11:08,432 | INFO | 127.0.0.1 - - [16/Dec/2025 21:11:08] "GET /?url=https://www.w3schools.com/html/tryit.asp?filename%3Dtryhtml_editor HTTP/1.1" 200 -
+2025-12-16 21:11:08,487 | INFO | 127.0.0.1 - - [16/Dec/2025 21:11:08] "[36mGET /static/js.js HTTP/1.1[0m" 304 -
+2025-12-16 21:11:08,506 | INFO | 127.0.0.1 - - [16/Dec/2025 21:11:08] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-12-16 21:13:55,683 | INFO | 127.0.0.1 - - [16/Dec/2025 21:13:55] "GET /?url=https://www.w3schools.com/html/tryit.asp?filename%3Dtryhtml_editor HTTP/1.1" 200 -
+2025-12-16 21:13:55,727 | INFO | 127.0.0.1 - - [16/Dec/2025 21:13:55] "[36mGET /static/js.js HTTP/1.1[0m" 304 -
+2025-12-16 21:13:55,760 | INFO | 127.0.0.1 - - [16/Dec/2025 21:13:55] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-12-16 21:23:28,068 | INFO | 127.0.0.1 - - [16/Dec/2025 21:23:28] "GET /?url=https://www.w3schools.com/html/tryit.asp?filename%3Dtryhtml_editor HTTP/1.1" 200 -
+2025-12-16 21:23:28,113 | INFO | 127.0.0.1 - - [16/Dec/2025 21:23:28] "[36mGET /static/js.js HTTP/1.1[0m" 304 -
+2025-12-16 21:23:28,164 | INFO | 127.0.0.1 - - [16/Dec/2025 21:23:28] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-12-16 21:23:42,591 | INFO | 127.0.0.1 - - [16/Dec/2025 21:23:42] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-12-16 21:28:37,408 | INFO | 127.0.0.1 - - [16/Dec/2025 21:28:37] "GET /?url=https://www.w3schools.com/html/tryit.asp?filename%3Dtryhtml_editor HTTP/1.1" 200 -
+2025-12-16 21:28:37,465 | INFO | 127.0.0.1 - - [16/Dec/2025 21:28:37] "[36mGET /static/js.js HTTP/1.1[0m" 304 -
+2025-12-16 21:28:37,502 | INFO | 127.0.0.1 - - [16/Dec/2025 21:28:37] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-12-17 09:49:08,035 | INFO | 127.0.0.1 - - [17/Dec/2025 09:49:08] "GET / HTTP/1.1" 200 -
+2025-12-17 09:49:08,109 | INFO | 127.0.0.1 - - [17/Dec/2025 09:49:08] "GET /static/css.css HTTP/1.1" 200 -
+2025-12-17 09:49:08,156 | INFO | 127.0.0.1 - - [17/Dec/2025 09:49:08] "[36mGET /static/js.js HTTP/1.1[0m" 304 -
+2025-12-17 09:51:48,737 | INFO | 127.0.0.1 - - [17/Dec/2025 09:51:48] "GET / HTTP/1.1" 200 -
+2025-12-17 09:51:48,779 | INFO | 127.0.0.1 - - [17/Dec/2025 09:51:48] "[36mGET /static/css.css HTTP/1.1[0m" 304 -
+2025-12-17 09:51:48,796 | INFO | 127.0.0.1 - - [17/Dec/2025 09:51:48] "[36mGET /static/js.js HTTP/1.1[0m" 304 -
+2025-12-17 09:51:59,468 | INFO | 127.0.0.1 - - [17/Dec/2025 09:51:59] "GET / HTTP/1.1" 200 -
+2025-12-17 09:51:59,500 | INFO | 127.0.0.1 - - [17/Dec/2025 09:51:59] "[36mGET /static/css.css HTTP/1.1[0m" 304 -
+2025-12-17 09:51:59,511 | INFO | 127.0.0.1 - - [17/Dec/2025 09:51:59] "[36mGET /static/js.js HTTP/1.1[0m" 304 -
+2025-12-17 09:53:02,373 | INFO | 127.0.0.1 - - [17/Dec/2025 09:53:02] "GET / HTTP/1.1" 200 -
+2025-12-17 09:53:02,455 | INFO | 127.0.0.1 - - [17/Dec/2025 09:53:02] "[36mGET /static/css.css HTTP/1.1[0m" 304 -
+2025-12-17 09:53:02,463 | INFO | 127.0.0.1 - - [17/Dec/2025 09:53:02] "[36mGET /static/js.js HTTP/1.1[0m" 304 -
+2025-12-17 09:54:20,397 | INFO | 127.0.0.1 - - [17/Dec/2025 09:54:20] "GET / HTTP/1.1" 200 -
+2025-12-17 09:54:20,431 | INFO | 127.0.0.1 - - [17/Dec/2025 09:54:20] "[36mGET /static/css.css HTTP/1.1[0m" 304 -
+2025-12-17 09:54:20,436 | INFO | 127.0.0.1 - - [17/Dec/2025 09:54:20] "[36mGET /static/js.js HTTP/1.1[0m" 304 -
+2025-12-17 10:28:46,434 | INFO | 127.0.0.1 - - [17/Dec/2025 10:28:46] "GET / HTTP/1.1" 200 -
+2025-12-17 10:28:46,477 | INFO | 127.0.0.1 - - [17/Dec/2025 10:28:46] "[36mGET /static/css.css HTTP/1.1[0m" 304 -
+2025-12-17 10:28:46,517 | INFO | 127.0.0.1 - - [17/Dec/2025 10:28:46] "GET /static/js.js HTTP/1.1" 200 -
+2025-12-17 10:28:59,527 | INFO | ========== B\u1eaeT \u0110\u1ea6U QUÉT ==========
+2025-12-17 10:28:59,528 | INFO | URL: https://stitch.withgoogle.com/projects/13717511672349533679
+2025-12-17 10:28:59,529 | INFO | Category: ['absolute_url', 'dynamic_url', 'static_url']
+2025-12-17 10:28:59,529 | INFO | >>> Quét STATIC HOLES
+2025-12-17 10:28:59,532 | INFO | [Static] Quét Information Disclosure: https://stitch.withgoogle.com/projects/13717511672349533679
+2025-12-17 10:29:02,768 | INFO | \u26a0\ufe0f [Info Disclosure] Phát hi\u1ec7n: https://stitch.withgoogle.com/robots.txt
+2025-12-17 10:30:17,203 | INFO | [Static] Quét Directory Listing: https://stitch.withgoogle.com/projects/13717511672349533679
+2025-12-17 10:30:56,440 | INFO | [Static] Quét Misconfiguration: https://stitch.withgoogle.com/projects/13717511672349533679
+2025-12-17 10:31:00,842 | INFO | \u26a0\ufe0f [Misconfig] Header nh\u1ea1y c\u1ea3m: Server=ESF
+2025-12-17 10:31:00,844 | INFO | >>> Quét DYNAMIC HOLES
+2025-12-17 10:31:00,844 | INFO | [Dynamic] Quét Broken Authentication: https://stitch.withgoogle.com/projects/13717511672349533679
+2025-12-17 10:31:04,941 | INFO | [Dynamic] Quét IDOR: https://stitch.withgoogle.com/projects/13717511672349533679
+2025-12-17 10:31:14,361 | INFO | \u26a0\ufe0f [IDOR] Phát hi\u1ec7n t\u1ea1i: https://stitch.withgoogle.com/projects/13717511672349533679
+2025-12-17 10:31:16,456 | INFO | T\u1ed5ng s\u1ed1 l\u1ed7 h\u1ed5ng phát hi\u1ec7n: 3
+2025-12-17 10:31:16,456 | INFO | ========== K\u1ebeT THÚC QUÉT ==========
+
+2025-12-17 10:31:16,457 | INFO | 127.0.0.1 - - [17/Dec/2025 10:31:16] "POST /api/task/ HTTP/1.1" 200 -
+2025-12-17 10:37:02,516 | INFO | 127.0.0.1 - - [17/Dec/2025 10:37:02] "GET / HTTP/1.1" 200 -
+2025-12-17 10:37:02,559 | INFO | 127.0.0.1 - - [17/Dec/2025 10:37:02] "[36mGET /static/js.js HTTP/1.1[0m" 304 -
+2025-12-17 10:37:02,562 | INFO | 127.0.0.1 - - [17/Dec/2025 10:37:02] "[36mGET /static/css.css HTTP/1.1[0m" 304 -
+2025-12-17 10:37:05,395 | INFO | ========== B\u1eaeT \u0110\u1ea6U QUÉT ==========
+2025-12-17 10:37:05,395 | INFO | URL: https://daotao.vku.udn.vn/
+2025-12-17 10:37:05,395 | INFO | Category: ['absolute_url', 'static_url']
+2025-12-17 10:37:05,395 | INFO | >>> Quét STATIC HOLES
+2025-12-17 10:37:05,396 | INFO | [Static] Quét Information Disclosure: https://daotao.vku.udn.vn/
+2025-12-17 10:37:27,600 | INFO | \u26a0\ufe0f [Info Disclosure] Phát hi\u1ec7n: https://daotao.vku.udn.vn/package-lock.json
+2025-12-17 10:37:51,159 | INFO | \u26a0\ufe0f [Info Disclosure] Phát hi\u1ec7n: https://daotao.vku.udn.vn/README.md
+2025-12-17 10:37:57,999 | INFO | [Static] Quét Directory Listing: https://daotao.vku.udn.vn/
+2025-12-17 10:38:35,522 | INFO | [Static] Quét Misconfiguration: https://daotao.vku.udn.vn/
+2025-12-17 10:38:42,242 | INFO | \u26a0\ufe0f [Misconfig] Header nh\u1ea1y c\u1ea3m: Server=Apache
+2025-12-17 10:38:44,303 | INFO | T\u1ed5ng s\u1ed1 l\u1ed7 h\u1ed5ng phát hi\u1ec7n: 3
+2025-12-17 10:38:44,303 | INFO | ========== K\u1ebeT THÚC QUÉT ==========
+
+2025-12-17 10:38:44,303 | INFO | 127.0.0.1 - - [17/Dec/2025 10:38:44] "POST /api/task/ HTTP/1.1" 200 -
+2025-12-17 10:46:11,008 | INFO | 127.0.0.1 - - [17/Dec/2025 10:46:11] "GET / HTTP/1.1" 200 -
+2025-12-17 10:46:11,047 | INFO | 127.0.0.1 - - [17/Dec/2025 10:46:11] "[36mGET /static/css.css HTTP/1.1[0m" 304 -
+2025-12-17 10:46:11,098 | INFO | 127.0.0.1 - - [17/Dec/2025 10:46:11] "GET /static/js.js HTTP/1.1" 200 -
+2025-12-17 10:46:16,515 | INFO | ========== B\u1eaeT \u0110\u1ea6U QUÉT ==========
+2025-12-17 10:46:16,515 | INFO | URL: https://daotao.vku.udn.vn/
+2025-12-17 10:46:16,515 | INFO | Category: ['absolute_url', 'static_url']
+2025-12-17 10:46:16,515 | INFO | >>> Quét STATIC HOLES
+2025-12-17 10:46:16,515 | INFO | [Static] Quét Information Disclosure: https://daotao.vku.udn.vn/
+2025-12-17 10:46:37,804 | INFO | \u26a0\ufe0f [Info Disclosure] Phát hi\u1ec7n: https://daotao.vku.udn.vn/package-lock.json
+2025-12-17 10:47:02,988 | INFO | \u26a0\ufe0f [Info Disclosure] Phát hi\u1ec7n: https://daotao.vku.udn.vn/README.md
+2025-12-17 10:47:10,772 | INFO | [Static] Quét Directory Listing: https://daotao.vku.udn.vn/
+2025-12-17 10:47:45,963 | INFO | [Static] Quét Misconfiguration: https://daotao.vku.udn.vn/
+2025-12-17 10:47:50,299 | INFO | \u26a0\ufe0f [Misconfig] Header nh\u1ea1y c\u1ea3m: Server=Apache
+2025-12-17 10:47:51,886 | INFO | T\u1ed5ng s\u1ed1 l\u1ed7 h\u1ed5ng phát hi\u1ec7n: 3
+2025-12-17 10:47:51,886 | INFO | ========== K\u1ebeT THÚC QUÉT ==========
+
+2025-12-17 10:47:51,887 | INFO | 127.0.0.1 - - [17/Dec/2025 10:47:51] "POST /api/task HTTP/1.1" 200 -
+2025-12-17 10:48:28,160 | INFO | 127.0.0.1 - - [17/Dec/2025 10:48:28] "GET / HTTP/1.1" 200 -
+2025-12-17 10:48:28,203 | INFO | 127.0.0.1 - - [17/Dec/2025 10:48:28] "[36mGET /static/css.css HTTP/1.1[0m" 304 -
+2025-12-17 10:48:28,204 | INFO | 127.0.0.1 - - [17/Dec/2025 10:48:28] "[36mGET /static/js.js HTTP/1.1[0m" 304 -
+2025-12-17 10:48:48,876 | INFO | ========== B\u1eaeT \u0110\u1ea6U QUÉT ==========
+2025-12-17 10:48:48,876 | INFO | URL: https://stitch.withgoogle.com/projects/13717511672349533679
+2025-12-17 10:48:48,876 | INFO | Category: ['absolute_url', 'dynamic_url', 'static_url']
+2025-12-17 10:48:48,876 | INFO | >>> Quét STATIC HOLES
+2025-12-17 10:48:48,876 | INFO | [Static] Quét Information Disclosure: https://stitch.withgoogle.com/projects/13717511672349533679
+2025-12-17 10:48:52,760 | INFO | \u26a0\ufe0f [Info Disclosure] Phát hi\u1ec7n: https://stitch.withgoogle.com/robots.txt
+2025-12-17 10:50:06,220 | INFO | [Static] Quét Directory Listing: https://stitch.withgoogle.com/projects/13717511672349533679
+2025-12-17 10:50:47,527 | INFO | [Static] Quét Misconfiguration: https://stitch.withgoogle.com/projects/13717511672349533679
+2025-12-17 10:50:52,163 | INFO | \u26a0\ufe0f [Misconfig] Header nh\u1ea1y c\u1ea3m: Server=ESF
+2025-12-17 10:50:52,166 | INFO | >>> Quét DYNAMIC HOLES
+2025-12-17 10:50:52,166 | INFO | [Dynamic] Quét Broken Authentication: https://stitch.withgoogle.com/projects/13717511672349533679
+2025-12-17 10:50:56,051 | INFO | [Dynamic] Quét IDOR: https://stitch.withgoogle.com/projects/13717511672349533679
+2025-12-17 10:51:04,854 | INFO | \u26a0\ufe0f [IDOR] Phát hi\u1ec7n t\u1ea1i: https://stitch.withgoogle.com/projects/13717511672349533679
+2025-12-17 10:51:05,090 | INFO | T\u1ed5ng s\u1ed1 l\u1ed7 h\u1ed5ng phát hi\u1ec7n: 3
+2025-12-17 10:51:05,090 | INFO | ========== K\u1ebeT THÚC QUÉT ==========
+
+2025-12-17 10:51:05,091 | INFO | 127.0.0.1 - - [17/Dec/2025 10:51:05] "POST /api/task HTTP/1.1" 200 -
+2025-12-17 12:09:39,340 | INFO | 127.0.0.1 - - [17/Dec/2025 12:09:39] "GET / HTTP/1.1" 200 -
+2025-12-17 12:09:39,389 | INFO | 127.0.0.1 - - [17/Dec/2025 12:09:39] "[36mGET /static/css.css HTTP/1.1[0m" 304 -
+2025-12-17 12:09:39,429 | INFO | 127.0.0.1 - - [17/Dec/2025 12:09:39] "[36mGET /static/js.js HTTP/1.1[0m" 304 -
+2025-12-17 12:10:09,648 | INFO | ========== B\u1eaeT \u0110\u1ea6U QUÉT ==========
+2025-12-17 12:10:09,649 | INFO | URL: https://daotao.vku.udn.vn/
+2025-12-17 12:10:09,649 | INFO | Category: ['absolute_url', 'static_url']
+2025-12-17 12:10:09,649 | INFO | >>> Quét STATIC HOLES
+2025-12-17 12:10:09,649 | INFO | [Static] Quét Information Disclosure: https://daotao.vku.udn.vn/
+2025-12-17 12:10:31,003 | INFO | \u26a0\ufe0f [Info Disclosure] Phát hi\u1ec7n: https://daotao.vku.udn.vn/package-lock.json
+2025-12-17 12:10:52,392 | INFO | \u26a0\ufe0f [Info Disclosure] Phát hi\u1ec7n: https://daotao.vku.udn.vn/README.md
+2025-12-17 12:10:59,710 | INFO | [Static] Quét Directory Listing: https://daotao.vku.udn.vn/
+2025-12-17 12:11:40,159 | INFO | [Static] Quét Misconfiguration: https://daotao.vku.udn.vn/
+2025-12-17 12:11:44,175 | INFO | \u26a0\ufe0f [Misconfig] Header nh\u1ea1y c\u1ea3m: Server=Apache
+2025-12-17 12:11:46,026 | INFO | T\u1ed5ng s\u1ed1 l\u1ed7 h\u1ed5ng phát hi\u1ec7n: 3
+2025-12-17 12:11:46,026 | INFO | ========== K\u1ebeT THÚC QUÉT ==========
+
+2025-12-17 12:11:46,027 | INFO | 127.0.0.1 - - [17/Dec/2025 12:11:46] "POST /api/task HTTP/1.1" 200 -
+2025-12-17 17:20:48,093 | INFO | 127.0.0.1 - - [17/Dec/2025 17:20:48] "GET / HTTP/1.1" 200 -
+2025-12-17 17:20:48,135 | INFO | 127.0.0.1 - - [17/Dec/2025 17:20:48] "[36mGET /static/css.css HTTP/1.1[0m" 304 -
+2025-12-17 17:20:48,146 | INFO | 127.0.0.1 - - [17/Dec/2025 17:20:48] "[36mGET /static/js.js HTTP/1.1[0m" 304 -

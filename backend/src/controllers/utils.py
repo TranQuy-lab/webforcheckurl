@@ -15,7 +15,7 @@ logging.basicConfig(
     format='%(asctime)s | %(levelname)s | %(message)s'
 )
 
-def log_error(url, error, status_code=None):
+def log_error(url, error, status_code=None): # đối với status_code = none tương ứng với việc khai báo biến status nhưng chưa có kiểu dử liệu cho biến 
     msg = f"URL: {url} | Status: {status_code} | Error: {error}"
     logging.error(msg)
 
@@ -25,6 +25,10 @@ def log_info(message):
 # ========== HTTP SESSION ==========
 def create_session():
     session = requests.Session()
+# đối với cú pháp requests
+# ta có request.get () : gửi một lần yêu cầu HTTP GET đến URL được chỉ định và trả về một đối tượng Response chứa phản hồi từ máy chủ.
+# tuy nhiên server không nhớ được chúng ta là ai, đối với gửi nhiều yêu cầu liên tiếp thì cần các lần khởi động các lệnh get khác nhau 
+# ta sử dụng session để lưu trữ các thông tin như cookies, headers giữa các yêu cầu tương đương với việc kết nối liên tục với server 
     session.headers.update({
         "User-Agent": USER_AGENT,
         "Accept": "*/*"
