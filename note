@@ -23,7 +23,7 @@ Có nhiều loại URL khác nhau tùy theo mục đích sử dụng, cách xây
   https://www.example.com/products/shoes
   ```
 - Sử dụng khi cần dẫn đến tài nguyên chính xác trên toàn cầu mạng.[6]
-
+"
 ### 4. URL tương đối (Relative URL)
 - Không có giao thức, domain, chỉ có path và (có thể) query, dùng trong nội bộ website.
 - Ví dụ:  
@@ -41,87 +41,89 @@ Như vậy, URL được chia thành nhiều loại dựa vào cấu trúc đư�
 
 Nếu bạn muốn **kiểm thử bảo mật web thủ công (manual)**, không dùng công cụ tự động, vẫn có thể thực hiện toàn bộ quy trình pentest theo cách truyền thống. Dưới đây là **chuỗi thao tác đầy đủ** được mô phỏng đúng tiêu chuẩn OWASP — thích hợp cho CTF hoặc đánh giá bảo mật có kiểm soát, nhưng làm hoàn toàn bằng tay, chỉ với trình duyệt, terminal, và kiến thức HTTP.[1][2][3]
 
+
+"
 ***
 
-### 1. Lập kế hoạch và giới hạn phạm vi
-Xác định rõ: website nào được phép thử, tài nguyên nào không được đụng tới.  
-Mục tiêu: tránh phạm luật và không gây gián đoạn hệ thống.[1]
+1.1. Website tĩnh (static)
+KHẢ THI:
 
-***
+Information Disclosure:
 
-### 2. Thăm dò thủ công (Manual Reconnaissance)
-Dò tìm thông tin bằng trình duyệt và HTTP request cơ bản:
-- Mở **Developer Tools (F12)** → tab “Network” để xem tất cả request/response.
-- Thử thay đổi URL bằng tay để phát hiện đường dẫn ẩn:  
-  ```
-  /admin, /login, /dashboard, /robots.txt, /sitemap.xml
-  ```
-- Kiểm tra cookie, headers và token bằng tay.  
-- Xem source HTML để phát hiện comment nội bộ, API endpoint, JavaScript file ẩn.[2][1]
+Dò file robots.txt, comment nội bộ HTML, leak file .bak, .old, .zip, .tar.gz (dùng tool như dirsearch, ffuf, gobuster).
 
-***
+Directory Listing:
 
-### 3. Kiểm tra thông tin nhạy cảm
-Kiểm tra các endpoint có thể trả về dữ liệu quan trọng:
-- Truy cập trực tiếp vào `/backup/`, `/config/`, `.git/`, `.env`
-- Thử thêm hậu tố `.bak`, `.old`, `.php~` để xem có file tạm không.  
-Ví dụ:
-```
-https://example.com/index.php~
-https://example.com/.env
-```
-Nếu truy cập được là một lỗi cấu hình nghiêm trọng.[3]
+Truy cập trực tiếp URL /backup/, /config/, /uploads/ để lộ dữ liệu (test nhanh được, có thể script hóa).
 
-***
+Misconfiguration:
 
-### 4. Kiểm tra tham số trong URL
+Kiểm tra các file nhạy cảm: .env, .git, backup để lộ cấu hình/mã nguồn (dùng wordlist, brute-force đơn giản).
 
+KHÔNG KHẢ THI:
 
+Injection, xác thực, lỗ hổng về phân quyền (loại này hầu như không có hoặc không thể thử khi không có backend).
 
-Thử nghiệm từng loại lỗ hổng tay:
-- **SQL injection:** thêm `'` hoặc `"`, dùng `UNION SELECT`, hoặc phép so sánh logic (`OR 1=1--`).
-- **XSS:** chèn `<script>alert(1)</script>` và quan sát phản hồi.
-- **LFI:** thay các giá trị file = thành `../../etc/passwd`.
-- Gửi request lại sau mỗi thay đổi để quan sát phản hồi, không cần công cụ tự động.[4][3]
+2. Website động đơn giản
+KHẢ THI:
 
-***
+SQL Injection:
 
-### 5. Kiểm tra xác thực và phân quyền
-Sau khi đăng nhập:
-- Thử thay ID trong URL (IDOR):  
-  ```
-  /profile?id=1 → /profile?id=2
-  ```
-- Dùng cookie người dùng A truy cập tài nguyên người dùng B.  
-Nếu hệ thống không chặn được, đây là lỗi **Broken Access Control**.[2][1]
+Thử payload ’, ", UNION SELECT… vào param URL/form (sqlmap hoặc tool tay).
 
-***
+XSS (Reflected/Stored):
 
-### 6. Kiểm tra chuyển hướng và lỗi logic
-- Thử thay đổi các tham số chuyển hướng:
-  ```
-  ?next=https://attacker.com
-  ```
-- Kiểm tra các form gửi dữ liệu: chỉnh sửa giá trị hidden field trực tiếp trong trình duyệt.
-- Nếu gửi dữ liệu không hợp lệ mà server vẫn phản hồi 200 OK, site có thể dính lỗi logic.[3][2]
+Chèn <script>alert(1)</script> hoặc payload phổ biến vào form/input/URL, kiểm tra có phản hồi JavaScript không (XSStrike, dalfox).
 
-***
+LFI (Local File Inclusion):
 
-### 7. Ghi chép và xác minh
-Tất cả thao tác cần ghi lại:
-- URL, tham số, payload, phản hồi.  
-- Ghi nhận lỗi rõ ràng: nội dung, tác động (lộ thông tin, bypass, file đọc được,...).  
-- Xác minh kỹ lại để tránh báo sai (false positive).[1][3]
+Biến đổi param file thành ../../etc/passwd hoặc đường dẫn khác (wfuzz, LFI Suite, manual).
 
-***
+Broken Authentication & Session Management:
 
-### 8. Báo cáo đánh giá
-Tổng hợp phát hiện và đề xuất khắc phục, ví dụ:
-- Lọc `input` (input validation)  
-- Dùng `prepared statement` thay nối chuỗi SQL  
-- Ẩn thư mục nội bộ và cấu hình quyền truy cập chặt chẽ.[1]
+Đổi session cookie values, dùng tool kiểm tra session hijacking, reset password flow mở.
 
-***
+IDOR (Insecure Direct Object Reference):
 
-Tóm lại, **kiểm thử web thủ công** dựa 100% trên **quan sát phản hồi URL, thay đổi tham số, kiểm tra logic và cấu hình**, không dựa vào công cụ quét. Ưu điểm là phát hiện được lỗi logic và hành vi thực tế mà công cụ bỏ sót; nhược điểm là tốn thời gian nhưng phù hợp để **đánh giá chính xác độ mạnh yếu của website**.[2][3][1]
+Đổi param ID trên URL để xem truy cập được tài nguyên người khác không (script, Burp Extension).
 
+KHÔNG KHẢ THI:
+
+Remote File Inclusion (vì đa số server hiện đại chặn include từ xa và ít website mở tính năng này thật).
+
+Thử các lỗi quá hẹp về authentication mà không có flow/cơ chế reset password/cấp token/đổi session (cần phân tích cụ thể từng site).
+
+3. Website động phức tạp
+KHẢ THI:
+
+Privilege Escalation / Access Control:
+
+Dùng cookie/token User thường để truy cập API Admin hoặc chức năng nhạy cảm (Burp/Autorize…).
+
+Mass Assignment:
+
+Thêm extra fields vào body request API (Burp, script tự động bơm nhiều key).
+
+API Security Issues:
+
+Kiểm tra rate limit (gửi hàng loạt request), fuzzy param để lộ quá nhiều data/schema (Burp Intruder/Repeater, wfuzz).
+
+CSRF:
+
+Xác nhận có cơ chế chống CSRF không trên các form POST; nếu không có, có thể thử tạo request giả.
+
+File Upload Vulnerabilities:
+
+Upload file bất hợp pháp (đuôi .php, .sh ngụy trang...), kiểm tra thực thi được không, lỗ lọt filter.
+
+Logic/Business Flaw đơn giản:
+
+Thử bypass validation phía client (bằng sửa JS gửi request trực tiếp hoặc trong Burp), thử thao tác logic đơn giản (ví dụ: giảm giá/không thanh toán vẫn hoàn tất order).
+
+KHÔNG KHẢ THI:
+
+Lỗi logic nghiệp vụ phức tạp/phụ thuộc quy trình thực tế (đa số cần hiểu ngữ cảnh thật hoặc gặp site thực tế mới nghĩ ra cách khai thác đặc thù – CTF/Bug bounty rất ít chấm điểm kiểu này nếu không mô tả rõ).
+
+RFI (đa phần bị fix, rất hiếm gặp trong thực tế hiện nay).
+
+Mass Assignment nếu không có API hoặc không lộ schema (trường hợp rất hẹp).

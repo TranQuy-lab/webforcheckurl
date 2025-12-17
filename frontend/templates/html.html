@@ -1,14 +1,174 @@
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
-<link rel="stylesheet" href="{{ url_for('static', filename='css.css') }}">
-<body>
-  <form action="">
-    <input type="search" autofocus required>
-    <i class="fa fa-search" onclick="getMessage()"></i>
-    <button type="button" onclick="clearInput()">Clear</button>
+<!DOCTYPE html>
+<html class="dark" lang="vi">
+<head>
+    <meta charset="utf-8"/>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+    <title>CyberScan - Advanced Web Vulnerability Scanner</title>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet"/>
+    
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+    <script>
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "primary": "#256af4", 
+                        "primary-yellow": "#f9f506",
+                        "background-light": "#f5f6f8",
+                        "background-dark": "#101622",
+                        "neon-red": "#ff3333",
+                        "neon-yellow": "#ffcc00",
+                        "neon-blue": "#00f0ff",
+                    },
+                    fontFamily: {
+                        "display": ["Space Grotesk", "Spline Sans", "sans-serif"],
+                        "body": ["Spline Sans", "sans-serif"]
+                    },
+                    backgroundImage: {
+                        'cyber-grid': "linear-gradient(rgba(15, 23, 42, 0.9), rgba(15, 23, 42, 0.95)), url('https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=2072&auto=format&fit=crop')",
+                    },
+                    boxShadow: {
+                        'glow-red': '0 0 10px rgba(255, 51, 51, 0.5)',
+                        'glow-yellow': '0 0 10px rgba(255, 204, 0, 0.5)',
+                        'glow-blue': '0 0 10px rgba(0, 240, 255, 0.3)',
+                    }
+                },
+            },
+        }
+    </script>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css.css') }}">
+</head>
+<body class="bg-background-dark text-slate-200 font-display antialiased overflow-x-hidden relative">
 
-  </form>
+    <div id="hero-section" class="relative min-h-screen flex flex-col transition-all duration-500">
+        <header class="fixed top-0 left-0 right-0 z-50">
+            <div class="glass-panel border-b border-white/5">
+                <div class="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
+                    <div class="flex items-center gap-3 cursor-pointer" onclick="window.location.reload()">
+                        <div class="size-10 flex items-center justify-center rounded-xl bg-primary/10 text-primary">
+                            <span class="material-symbols-outlined text-2xl">security</span>
+                        </div>
+                        <span class="text-white text-xl font-bold tracking-tight">Cyber<span class="text-primary">Scan</span></span>
+                    </div>
+                    <button class="bg-primary text-background-dark hover:bg-white transition-colors duration-300 h-10 px-6 rounded-full text-sm font-bold shadow-[0_0_15px_rgba(37,106,244,0.3)]">
+                        Get Started
+                    </button>
+                </div>
+            </div>
+        </header>
 
-  <p id="result"></p> <!-- Thêm dòng này để hiển thị dữ liệu API -->
+        <main class="flex-grow pt-20">
+            <section class="relative min-h-[90vh] flex flex-col items-center justify-center overflow-hidden">
+                <div class="absolute inset-0 z-0 bg-cyber-grid bg-cover bg-center bg-no-repeat bg-fixed"></div>
+                <div class="relative z-10 w-full max-w-7xl mx-auto px-6 flex flex-col items-center text-center">
+                    <div class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-primary/10 border border-primary/20 text-primary text-xs font-bold uppercase tracking-wider mb-8 animate-pulse">
+                        <span class="w-2 h-2 rounded-full bg-primary"></span> System Online
+                    </div>
+                    <h1 class="text-5xl md:text-7xl font-black text-white leading-tight mb-6">
+                        Secure Your <span class="text-transparent bg-clip-text bg-gradient-to-r from-primary to-white">Digital Perimeter</span>
+                    </h1>
+                    <p class="text-lg md:text-xl text-slate-400 max-w-2xl mb-12">
+                        Instant, AI-powered vulnerability scanning for modern web infrastructure.
+                    </p>
+                    
+                    <form id="scan-form" class="w-full max-w-3xl relative group">
+                        <div class="absolute -inset-1 bg-gradient-to-r from-primary/30 to-blue-500/30 rounded-full blur-xl opacity-20 group-hover:opacity-40 transition duration-500"></div>
+                        <div class="relative flex items-center p-2 rounded-full glass-input shadow-2xl">
+                            <div class="pl-4 pr-2 text-primary flex items-center"><span class="material-symbols-outlined text-2xl">search</span></div>
+                            <input id="search-input" name="url" autofocus class="flex-1 bg-transparent border-none text-white placeholder-slate-500 focus:ring-0 text-base md:text-lg h-12 w-full focus:outline-none" placeholder="Enter target URL (e.g., https://example.com)" type="search" required autocomplete="off" />
+                            <button type="submit" class="flex items-center gap-2 bg-primary hover:bg-white text-background-dark font-bold py-3 px-8 rounded-full transition-all shadow-[0_0_20px_rgba(37,106,244,0.3)]">
+                                <span>Scan Now</span><span class="material-symbols-outlined text-xl">arrow_forward</span>
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </section>
+        </main>
+    </div>
 
-  <script src="{{ url_for('static', filename='js.js') }}"></script>
+    <div id="loading-overlay" class="fixed inset-0 z-[100] bg-[#050a14] flex flex-col items-center justify-center hidden">
+        <div class="absolute inset-0 pointer-events-none opacity-20">
+            <div class="absolute inset-0" style="background-image: linear-gradient(to right, #00f0ff 1px, transparent 1px), linear-gradient(to bottom, #00f0ff 1px, transparent 1px); background-size: 60px 60px;"></div>
+        </div>
+        <div class="relative z-10 w-full max-w-md p-8 flex flex-col items-center gap-6">
+            <div class="inline-flex items-center justify-center size-24 rounded-full border-2 border-neon-blue/30 bg-slate-900/50 backdrop-blur-sm mb-4 shadow-[0_0_30px_rgba(0,240,255,0.3)]">
+                <span class="material-symbols-outlined text-5xl text-neon-blue animate-spin">radar</span>
+            </div>
+            <h2 class="text-neon-blue font-bold text-sm tracking-[0.3em] uppercase animate-pulse">SYSTEM INITIALIZING</h2>
+            <div class="w-full bg-black/60 rounded border border-slate-800 p-4 font-mono text-xs h-40 flex flex-col justify-end shadow-inner overflow-hidden">
+                <div id="terminal-logs" class="flex flex-col gap-1 text-slate-400"></div>
+                <div class="flex items-center gap-1 text-neon-blue mt-1"><span>>>_</span><span class="animate-pulse">|</span></div>
+            </div>
+        </div>
+    </div>
+
+    <div id="result-section" class="min-h-screen flex flex-col hidden bg-background-dark">
+        <header class="glass-header sticky top-0 z-50 px-6 py-3 flex items-center justify-between">
+            <div class="flex items-center gap-4 text-white">
+                <div class="size-8 text-primary relative"><span class="material-symbols-outlined text-[32px]">radar</span></div>
+                <h2 class="text-xl font-bold">CyberScan Report</h2>
+            </div>
+            <button onclick="window.location.reload()" class="bg-slate-800 hover:bg-slate-700 text-white px-4 py-2 rounded-lg text-sm font-bold border border-slate-700 cursor-pointer">Scan New Target</button>
+        </header>
+
+        <main class="flex-1 max-w-[1400px] mx-auto p-6 w-full flex flex-col gap-6">
+            <div class="border-b border-slate-800 pb-4">
+                <div class="flex items-center gap-2 mb-2">
+                    <span class="bg-green-500/10 text-green-400 border border-green-500/20 text-xs px-2 py-1 rounded uppercase font-bold">Hoàn thành</span>
+                    <span id="scan-time" class="text-slate-500 text-xs"></span>
+                </div>
+                <h1 class="text-3xl font-black text-white">Kết quả Quét Bảo Mật</h1>
+                <p class="text-slate-400 mt-2 font-mono">Target: <span id="target-url-display" class="text-primary font-bold"></span></p>
+            </div>
+
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-6">
+                <div class="glass-panel rounded-xl p-6 lg:col-span-3 flex flex-col items-center justify-center relative overflow-hidden">
+                    <div class="absolute inset-0 bg-gradient-to-br from-neon-red/10 to-transparent opacity-50"></div>
+                    <div class="relative z-10 flex items-center justify-center size-32 rounded-full border-4 border-slate-800 bg-slate-900 shadow-glow-red">
+                        <span id="security-score" class="text-6xl font-black text-neon-red">F</span>
+                    </div>
+                    <p class="mt-4 text-neon-red font-bold uppercase tracking-wide">High Risk</p>
+                </div>
+
+                <div class="glass-panel rounded-xl p-6 lg:col-span-9 flex items-center justify-around">
+                    <div class="text-center">
+                        <p class="text-slate-400 text-sm uppercase">Tổng lỗ hổng</p>
+                        <p id="total-vulns" class="text-4xl font-bold text-white mt-2">0</p>
+                    </div>
+                    <div class="h-12 w-px bg-slate-800"></div>
+                    <div class="text-center">
+                        <p class="text-slate-400 text-sm uppercase">Nghiêm trọng</p>
+                        <p id="high-vulns" class="text-4xl font-bold text-neon-red mt-2">0</p>
+                    </div>
+                    <div class="h-12 w-px bg-slate-800"></div>
+                    <div class="text-center">
+                        <p class="text-slate-400 text-sm uppercase">Trung bình</p>
+                        <p id="medium-vulns" class="text-4xl font-bold text-neon-yellow mt-2">0</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="glass-panel rounded-xl overflow-hidden mt-4">
+                <div class="p-4 border-b border-slate-800 bg-slate-900/50"><h3 class="font-bold text-white">Chi tiết lỗ hổng</h3></div>
+                <div class="overflow-x-auto">
+                    <table class="w-full text-left border-collapse">
+                        <thead class="bg-slate-900/50 text-slate-400 text-xs uppercase font-bold">
+                            <tr>
+                                <th class="p-4 border-b border-slate-800">Mức độ</th>
+                                <th class="p-4 border-b border-slate-800">Loại lỗ hổng</th>
+                                <th class="p-4 border-b border-slate-800">Chi tiết / Payload</th>
+                            </tr>
+                        </thead>
+                        <tbody id="vuln-table-body" class="divide-y divide-slate-800 text-sm">
+                            </tbody>
+                    </table>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <script src="{{ url_for('static', filename='js.js') }}"></script>
 </body>
+</html>
