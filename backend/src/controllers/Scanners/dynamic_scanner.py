@@ -4,7 +4,7 @@ import re
 from urllib.parse import urlparse, parse_qs, urlencode
 from utils import create_session, get_request_delay, log_info
 from controllers.config import DEFAULT_TIMEOUT
-
+import requests
 
 def scan_sql_injection(target_url):
     vulnerabilities = []
