@@ -833,3 +833,216 @@
 2025-12-17 17:20:48,093 | INFO | 127.0.0.1 - - [17/Dec/2025 17:20:48] "GET / HTTP/1.1" 200 -
 2025-12-17 17:20:48,135 | INFO | 127.0.0.1 - - [17/Dec/2025 17:20:48] "[36mGET /static/css.css HTTP/1.1[0m" 304 -
 2025-12-17 17:20:48,146 | INFO | 127.0.0.1 - - [17/Dec/2025 17:20:48] "[36mGET /static/js.js HTTP/1.1[0m" 304 -
+2025-12-17 21:04:41,591 | INFO | [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5001
+2025-12-17 21:04:41,592 | INFO | [33mPress CTRL+C to quit[0m
+2025-12-17 21:04:41,596 | INFO |  * Restarting with stat
+2025-12-17 21:04:42,931 | WARNING |  * Debugger is active!
+2025-12-17 21:04:42,942 | INFO |  * Debugger PIN: 141-129-209
+2025-12-17 21:04:43,963 | INFO | 127.0.0.1 - - [17/Dec/2025 21:04:43] "GET / HTTP/1.1" 200 -
+2025-12-17 21:04:44,082 | INFO | 127.0.0.1 - - [17/Dec/2025 21:04:44] "GET /static/css.css HTTP/1.1" 200 -
+2025-12-17 21:04:44,905 | INFO | 127.0.0.1 - - [17/Dec/2025 21:04:44] "GET /static/js.js HTTP/1.1" 200 -
+2025-12-17 21:04:51,686 | INFO | ========== B\u1eaeT \u0110\u1ea6U QUÉT ==========
+2025-12-17 21:04:51,686 | INFO | URL: https://meet.google.com/qss-pzhu-phs
+2025-12-17 21:04:51,686 | INFO | Category: ['absolute_url', 'static_url']
+2025-12-17 21:04:51,686 | INFO | >>> Quét STATIC HOLES
+2025-12-17 21:04:51,686 | INFO | [Static] Quét Information Disclosure: https://meet.google.com/qss-pzhu-phs
+2025-12-17 21:04:53,940 | INFO | \u26a0\ufe0f [Info Disclosure] Phát hi\u1ec7n: https://meet.google.com/robots.txt
+2025-12-17 21:05:54,365 | INFO | [Static] Quét Directory Listing: https://meet.google.com/qss-pzhu-phs
+2025-12-17 21:06:25,500 | INFO | [Static] Quét Misconfiguration: https://meet.google.com/qss-pzhu-phs
+2025-12-17 21:06:32,240 | INFO | \u26a0\ufe0f [Misconfig] Header nh\u1ea1y c\u1ea3m: Server=sffe
+2025-12-17 21:06:34,137 | INFO | T\u1ed5ng s\u1ed1 l\u1ed7 h\u1ed5ng phát hi\u1ec7n: 2
+2025-12-17 21:06:34,137 | INFO | ========== K\u1ebeT THÚC QUÉT ==========
+
+2025-12-17 21:06:34,138 | INFO | 127.0.0.1 - - [17/Dec/2025 21:06:34] "POST /api/task HTTP/1.1" 200 -
+2025-12-17 21:47:23,109 | INFO | 127.0.0.1 - - [17/Dec/2025 21:47:23] "GET / HTTP/1.1" 200 -
+2025-12-17 21:47:23,166 | INFO | 127.0.0.1 - - [17/Dec/2025 21:47:23] "[36mGET /static/css.css HTTP/1.1[0m" 304 -
+2025-12-17 21:47:23,210 | INFO | 127.0.0.1 - - [17/Dec/2025 21:47:23] "[36mGET /static/js.js HTTP/1.1[0m" 304 -
+2025-12-17 21:47:27,374 | INFO | 127.0.0.1 - - [17/Dec/2025 21:47:27] "[31m[1mPOST /api/task HTTP/1.1[0m" 400 -
+2025-12-17 21:47:28,901 | INFO | 127.0.0.1 - - [17/Dec/2025 21:47:28] "GET / HTTP/1.1" 200 -
+2025-12-17 21:47:28,955 | INFO | 127.0.0.1 - - [17/Dec/2025 21:47:28] "[36mGET /static/css.css HTTP/1.1[0m" 304 -
+2025-12-17 21:47:28,956 | INFO | 127.0.0.1 - - [17/Dec/2025 21:47:28] "[36mGET /static/js.js HTTP/1.1[0m" 304 -
+2025-12-17 21:47:31,564 | INFO | 127.0.0.1 - - [17/Dec/2025 21:47:31] "[31m[1mPOST /api/task HTTP/1.1[0m" 400 -
+2025-12-17 21:47:38,941 | INFO | 127.0.0.1 - - [17/Dec/2025 21:47:38] "GET / HTTP/1.1" 200 -
+2025-12-17 21:47:38,981 | INFO | 127.0.0.1 - - [17/Dec/2025 21:47:38] "[36mGET /static/css.css HTTP/1.1[0m" 304 -
+2025-12-17 21:47:38,992 | INFO | 127.0.0.1 - - [17/Dec/2025 21:47:38] "[36mGET /static/js.js HTTP/1.1[0m" 304 -
+2025-12-17 22:20:10,114 | INFO | ========== B\u1eaeT \u0110\u1ea6U QUÉT ==========
+2025-12-17 22:20:10,114 | INFO | URL: https://translate.google.com/?sl=en&tl=vi&text=indicators&op=translate
+2025-12-17 22:20:10,114 | INFO | Category: ['absolute_url', 'dynamic_url']
+2025-12-17 22:20:10,114 | INFO | >>> Quét DYNAMIC HOLES
+2025-12-17 22:20:10,116 | INFO | [Dynamic] Quét SQL Injection: https://translate.google.com/?sl=en&tl=vi&text=indicators&op=translate
+2025-12-17 22:20:53,152 | WARNING | Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ReadTimeoutError("HTTPSConnectionPool(host='translate.google.com', port=443): Read timed out. (read timeout=7)")': /?sl=en&tl=vi&text=%27+OR+1%3D1--&op=translate
+2025-12-17 22:21:13,294 | INFO | \u26a0\ufe0f [SQLi Time-based] Phát hi\u1ec7n t\u1ea1i: text
+2025-12-17 22:21:34,369 | INFO | [Dynamic] Quét XSS: https://translate.google.com/?sl=en&tl=vi&text=indicators&op=translate
+2025-12-17 22:22:04,060 | INFO | [Dynamic] Quét Broken Authentication: https://translate.google.com/?sl=en&tl=vi&text=indicators&op=translate
+2025-12-17 22:22:07,612 | INFO | [Dynamic] Quét IDOR: https://translate.google.com/?sl=en&tl=vi&text=indicators&op=translate
+2025-12-17 22:22:09,285 | INFO | T\u1ed5ng s\u1ed1 l\u1ed7 h\u1ed5ng phát hi\u1ec7n: 1
+2025-12-17 22:22:09,285 | INFO | ========== K\u1ebeT THÚC QUÉT ==========
+
+2025-12-17 22:22:09,286 | INFO | 127.0.0.1 - - [17/Dec/2025 22:22:09] "POST /api/task HTTP/1.1" 200 -
+2025-12-17 22:23:45,589 | INFO | 127.0.0.1 - - [17/Dec/2025 22:23:45] "GET / HTTP/1.1" 200 -
+2025-12-17 22:23:45,620 | INFO | 127.0.0.1 - - [17/Dec/2025 22:23:45] "[36mGET /static/css.css HTTP/1.1[0m" 304 -
+2025-12-17 22:23:45,631 | INFO | 127.0.0.1 - - [17/Dec/2025 22:23:45] "[36mGET /static/js.js HTTP/1.1[0m" 304 -
+2025-12-17 22:24:24,679 | INFO | ========== B\u1eaeT \u0110\u1ea6U QUÉT ==========
+2025-12-17 22:24:24,679 | INFO | URL: https://gemini.google.com/u/0/app/917d38c1ad120792?_gl=1*1yv2idi*_gcl_au*MTI5NjgxMzEzNS4xNzU4NzYwMzc5Ljg0MDU4MDA3NC4xNzU5ODg4ODg5LjE3NTk4ODg4ODg.*_ga*NDY4MDM1MjA2LjE3NTg3NjAzODA.*_ga_WC57KJ50ZZ*czE3NTk4ODc1NzYkbzIkZzEkdDE3NTk4ODg4OTYkajE3JGwwJGgw
+2025-12-17 22:24:24,679 | INFO | Category: ['absolute_url', 'dynamic_url']
+2025-12-17 22:24:24,679 | INFO | >>> Quét DYNAMIC HOLES
+2025-12-17 22:24:24,679 | INFO | [Dynamic] Quét SQL Injection: https://gemini.google.com/u/0/app/917d38c1ad120792?_gl=1*1yv2idi*_gcl_au*MTI5NjgxMzEzNS4xNzU4NzYwMzc5Ljg0MDU4MDA3NC4xNzU5ODg4ODg5LjE3NTk4ODg4ODg.*_ga*NDY4MDM1MjA2LjE3NTg3NjAzODA.*_ga_WC57KJ50ZZ*czE3NTk4ODc1NzYkbzIkZzEkdDE3NTk4ODg4OTYkajE3JGwwJGgw
+2025-12-17 22:24:43,753 | INFO | [Dynamic] Quét XSS: https://gemini.google.com/u/0/app/917d38c1ad120792?_gl=1*1yv2idi*_gcl_au*MTI5NjgxMzEzNS4xNzU4NzYwMzc5Ljg0MDU4MDA3NC4xNzU5ODg4ODg5LjE3NTk4ODg4ODg.*_ga*NDY4MDM1MjA2LjE3NTg3NjAzODA.*_ga_WC57KJ50ZZ*czE3NTk4ODc1NzYkbzIkZzEkdDE3NTk4ODg4OTYkajE3JGwwJGgw
+2025-12-17 22:24:52,575 | INFO | [Dynamic] Quét Broken Authentication: https://gemini.google.com/u/0/app/917d38c1ad120792?_gl=1*1yv2idi*_gcl_au*MTI5NjgxMzEzNS4xNzU4NzYwMzc5Ljg0MDU4MDA3NC4xNzU5ODg4ODg5LjE3NTk4ODg4ODg.*_ga*NDY4MDM1MjA2LjE3NTg3NjAzODA.*_ga_WC57KJ50ZZ*czE3NTk4ODc1NzYkbzIkZzEkdDE3NTk4ODg4OTYkajE3JGwwJGgw
+2025-12-17 22:24:56,092 | INFO | [Dynamic] Quét IDOR: https://gemini.google.com/u/0/app/917d38c1ad120792?_gl=1*1yv2idi*_gcl_au*MTI5NjgxMzEzNS4xNzU4NzYwMzc5Ljg0MDU4MDA3NC4xNzU5ODg4ODg5LjE3NTk4ODg4ODg.*_ga*NDY4MDM1MjA2LjE3NTg3NjAzODA.*_ga_WC57KJ50ZZ*czE3NTk4ODc1NzYkbzIkZzEkdDE3NTk4ODg4OTYkajE3JGwwJGgw
+2025-12-17 22:25:06,915 | INFO | \u26a0\ufe0f [IDOR] Phát hi\u1ec7n t\u1ea1i: https://gemini.google.com/u/0/app/917d38c1ad120792?_gl=1*1yv2idi*_gcl_au*MTI5NjgxMzEzNS4xNzU4NzYwMzc5Ljg0MDU4MDA3NC4xNzU5ODg4ODg5LjE3NTk4ODg4ODg.*_ga*NDY4MDM1MjA2LjE3NTg3NjAzODA.*_ga_WC57KJ50ZZ*czE3NTk4ODc1NzYkbzIkZzEkdDE3NTk4ODg4OTYkajE3JGwwJGgw
+2025-12-17 22:25:07,155 | INFO | T\u1ed5ng s\u1ed1 l\u1ed7 h\u1ed5ng phát hi\u1ec7n: 2
+2025-12-17 22:25:07,155 | INFO | ========== K\u1ebeT THÚC QUÉT ==========
+
+2025-12-17 22:25:07,156 | INFO | 127.0.0.1 - - [17/Dec/2025 22:25:07] "POST /api/task HTTP/1.1" 200 -
+2025-12-19 21:53:01,358 | INFO | [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5001
+2025-12-19 21:53:01,359 | INFO | [33mPress CTRL+C to quit[0m
+2025-12-19 21:53:01,362 | INFO |  * Restarting with stat
+2025-12-19 21:53:02,593 | WARNING |  * Debugger is active!
+2025-12-19 21:53:02,599 | INFO |  * Debugger PIN: 141-129-209
+2025-12-19 21:53:10,992 | INFO | 127.0.0.1 - - [19/Dec/2025 21:53:10] "GET / HTTP/1.1" 200 -
+2025-12-19 21:53:11,191 | INFO | 127.0.0.1 - - [19/Dec/2025 21:53:11] "GET /static/css.css HTTP/1.1" 200 -
+2025-12-19 21:53:11,225 | INFO | 127.0.0.1 - - [19/Dec/2025 21:53:11] "GET /static/js.js HTTP/1.1" 200 -
+2025-12-19 21:53:39,472 | INFO | 127.0.0.1 - - [19/Dec/2025 21:53:39] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-12-19 21:53:55,767 | INFO | ========== B\u1eaeT \u0110\u1ea6U QUÉT ==========
+2025-12-19 21:53:55,767 | INFO | URL: http://amiable-citadel.picoctf.net:56921/
+2025-12-19 21:53:55,768 | INFO | Category: ['absolute_url', 'static_url']
+2025-12-19 21:53:55,768 | INFO | >>> Quét STATIC HOLES
+2025-12-19 21:53:55,769 | INFO | [Static] Quét Information Disclosure: http://amiable-citadel.picoctf.net:56921/
+2025-12-19 21:54:47,695 | INFO | [Static] Quét Directory Listing: http://amiable-citadel.picoctf.net:56921/
+2025-12-19 21:55:28,442 | INFO | [Static] Quét Misconfiguration: http://amiable-citadel.picoctf.net:56921/
+2025-12-19 21:55:31,685 | INFO | \u26a0\ufe0f [Misconfig] Header nh\u1ea1y c\u1ea3m: X-Powered-By=Express
+2025-12-19 21:55:33,603 | INFO | T\u1ed5ng s\u1ed1 l\u1ed7 h\u1ed5ng phát hi\u1ec7n: 1
+2025-12-19 21:55:33,603 | INFO | ========== K\u1ebeT THÚC QUÉT ==========
+
+2025-12-19 21:55:33,604 | INFO | 127.0.0.1 - - [19/Dec/2025 21:55:33] "POST /api/task HTTP/1.1" 200 -
+2025-12-19 21:59:40,383 | INFO | 127.0.0.1 - - [19/Dec/2025 21:59:40] "GET / HTTP/1.1" 200 -
+2025-12-19 21:59:40,424 | INFO | 127.0.0.1 - - [19/Dec/2025 21:59:40] "[36mGET /static/js.js HTTP/1.1[0m" 304 -
+2025-12-19 21:59:40,425 | INFO | 127.0.0.1 - - [19/Dec/2025 21:59:40] "[36mGET /static/css.css HTTP/1.1[0m" 304 -
+2025-12-20 09:48:34,318 | INFO | ========== B\u1eaeT \u0110\u1ea6U QUÉT ==========
+2025-12-20 09:48:34,320 | INFO | URL: https://translate.google.com/?sl=en&tl=vi&text=Cross-Site%20Scripting&op=translate
+2025-12-20 09:48:34,320 | INFO | Category: ['absolute_url', 'dynamic_url']
+2025-12-20 09:48:34,320 | INFO | >>> Quét DYNAMIC HOLES
+2025-12-20 09:48:34,322 | INFO | [Dynamic] Quét SQL Injection: https://translate.google.com/?sl=en&tl=vi&text=Cross-Site%20Scripting&op=translate
+2025-12-20 09:50:19,453 | INFO | [Dynamic] Quét XSS: https://translate.google.com/?sl=en&tl=vi&text=Cross-Site%20Scripting&op=translate
+2025-12-20 09:51:28,452 | INFO | [Dynamic] Quét Broken Authentication: https://translate.google.com/?sl=en&tl=vi&text=Cross-Site%20Scripting&op=translate
+2025-12-20 09:51:35,006 | INFO | [Dynamic] Quét IDOR: https://translate.google.com/?sl=en&tl=vi&text=Cross-Site%20Scripting&op=translate
+2025-12-20 09:51:39,925 | INFO | T\u1ed5ng s\u1ed1 l\u1ed7 h\u1ed5ng phát hi\u1ec7n: 0
+2025-12-20 09:51:39,925 | INFO | ========== K\u1ebeT THÚC QUÉT ==========
+
+2025-12-20 09:51:39,933 | INFO | 127.0.0.1 - - [20/Dec/2025 09:51:39] "POST /api/task HTTP/1.1" 200 -
+2025-12-20 09:57:39,049 | INFO | 127.0.0.1 - - [20/Dec/2025 09:57:39] "GET / HTTP/1.1" 200 -
+2025-12-20 09:57:39,132 | INFO | 127.0.0.1 - - [20/Dec/2025 09:57:39] "[36mGET /static/css.css HTTP/1.1[0m" 304 -
+2025-12-20 09:57:39,168 | INFO | 127.0.0.1 - - [20/Dec/2025 09:57:39] "[36mGET /static/js.js HTTP/1.1[0m" 304 -
+2025-12-20 09:59:09,462 | INFO | 127.0.0.1 - - [20/Dec/2025 09:59:09] "GET / HTTP/1.1" 200 -
+2025-12-20 09:59:09,498 | INFO | 127.0.0.1 - - [20/Dec/2025 09:59:09] "[36mGET /static/css.css HTTP/1.1[0m" 304 -
+2025-12-20 09:59:09,502 | INFO | 127.0.0.1 - - [20/Dec/2025 09:59:09] "[36mGET /static/js.js HTTP/1.1[0m" 304 -
+2025-12-20 10:53:34,341 | INFO | ========== B\u1eaeT \u0110\u1ea6U QUÉT ==========
+2025-12-20 10:53:34,343 | INFO | URL: https://www.garena.vn/?jhnmcled=jhnmcled
+2025-12-20 10:53:34,343 | INFO | Category: ['absolute_url', 'dynamic_url']
+2025-12-20 10:53:34,344 | INFO | >>> Quét DYNAMIC HOLES
+2025-12-20 10:53:34,347 | INFO | [Dynamic] Quét SQL Injection: https://www.garena.vn/?jhnmcled=jhnmcled
+2025-12-20 10:54:51,106 | INFO | [Dynamic] Quét XSS: https://www.garena.vn/?jhnmcled=jhnmcled
+2025-12-20 10:55:00,779 | INFO | [Dynamic] Quét Broken Authentication: https://www.garena.vn/?jhnmcled=jhnmcled
+2025-12-20 10:55:12,866 | INFO | [Dynamic] Quét IDOR: https://www.garena.vn/?jhnmcled=jhnmcled
+2025-12-20 10:55:15,144 | INFO | T\u1ed5ng s\u1ed1 l\u1ed7 h\u1ed5ng phát hi\u1ec7n: 0
+2025-12-20 10:55:15,144 | INFO | ========== K\u1ebeT THÚC QUÉT ==========
+
+2025-12-20 10:55:15,146 | INFO | 127.0.0.1 - - [20/Dec/2025 10:55:15] "POST /api/task HTTP/1.1" 200 -
+2025-12-20 12:03:56,594 | INFO | 127.0.0.1 - - [20/Dec/2025 12:03:56] "GET / HTTP/1.1" 200 -
+2025-12-20 12:03:56,637 | INFO | 127.0.0.1 - - [20/Dec/2025 12:03:56] "[36mGET /static/css.css HTTP/1.1[0m" 304 -
+2025-12-20 12:03:56,643 | INFO | 127.0.0.1 - - [20/Dec/2025 12:03:56] "[36mGET /static/js.js HTTP/1.1[0m" 304 -
+2025-12-20 12:04:36,505 | INFO | 127.0.0.1 - - [20/Dec/2025 12:04:36] "GET / HTTP/1.1" 200 -
+2025-12-20 12:04:36,537 | INFO | 127.0.0.1 - - [20/Dec/2025 12:04:36] "[36mGET /static/css.css HTTP/1.1[0m" 304 -
+2025-12-20 12:04:36,539 | INFO | 127.0.0.1 - - [20/Dec/2025 12:04:36] "[36mGET /static/js.js HTTP/1.1[0m" 304 -
+2025-12-20 18:48:34,443 | INFO |  * Detected change in 'D:\\beforetoweb\\backend\\src\\controllers\\Scanners\\dynamic_scanner.py', reloading
+2025-12-20 18:48:35,213 | INFO |  * Restarting with stat
+2025-12-20 18:48:40,303 | WARNING |  * Debugger is active!
+2025-12-20 18:48:40,310 | INFO |  * Debugger PIN: 141-129-209
+2025-12-21 10:54:06,439 | INFO | ========== B\u1eaeT \u0110\u1ea6U QUÉT ==========
+2025-12-21 10:54:06,444 | INFO | URL: https://daotao.vku.udn.vn/
+2025-12-21 10:54:06,444 | INFO | Category: ['absolute_url', 'static_url']
+2025-12-21 10:54:06,444 | INFO | >>> Quét STATIC HOLES
+2025-12-21 10:54:06,448 | INFO | [Static] Quét Information Disclosure: https://daotao.vku.udn.vn/
+2025-12-21 10:54:27,586 | INFO | \u26a0\ufe0f [Info Disclosure] Phát hi\u1ec7n: https://daotao.vku.udn.vn/package-lock.json
+2025-12-21 10:54:50,284 | INFO | \u26a0\ufe0f [Info Disclosure] Phát hi\u1ec7n: https://daotao.vku.udn.vn/README.md
+2025-12-21 10:54:56,460 | INFO | [Static] Quét Directory Listing: https://daotao.vku.udn.vn/
+2025-12-21 10:55:27,723 | INFO | \u26a0\ufe0f [Dir Listing] Phát hi\u1ec7n: https://daotao.vku.udn.vn/public/
+2025-12-21 10:55:31,605 | INFO | [Static] Quét Misconfiguration: https://daotao.vku.udn.vn/
+2025-12-21 10:55:35,536 | INFO | \u26a0\ufe0f [Misconfig] Header nh\u1ea1y c\u1ea3m: Server=Apache
+2025-12-21 10:55:37,597 | INFO | T\u1ed5ng s\u1ed1 l\u1ed7 h\u1ed5ng phát hi\u1ec7n: 4
+2025-12-21 10:55:37,597 | INFO | ========== K\u1ebeT THÚC QUÉT ==========
+
+2025-12-21 10:55:37,602 | INFO | 127.0.0.1 - - [21/Dec/2025 10:55:37] "POST /api/task HTTP/1.1" 200 -
+2025-12-21 22:38:16,543 | INFO | [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5001
+2025-12-21 22:38:16,544 | INFO | [33mPress CTRL+C to quit[0m
+2025-12-21 22:38:16,547 | INFO |  * Restarting with stat
+2025-12-21 22:38:18,016 | WARNING |  * Debugger is active!
+2025-12-21 22:38:18,022 | INFO |  * Debugger PIN: 141-129-209
+2025-12-21 22:39:41,796 | INFO | 127.0.0.1 - - [21/Dec/2025 22:39:41] "GET / HTTP/1.1" 200 -
+2025-12-21 22:39:41,948 | INFO | 127.0.0.1 - - [21/Dec/2025 22:39:41] "GET /static/css.css HTTP/1.1" 200 -
+2025-12-21 22:39:41,986 | INFO | 127.0.0.1 - - [21/Dec/2025 22:39:41] "GET /static/js.js HTTP/1.1" 200 -
+2025-12-21 22:39:48,225 | INFO | 127.0.0.1 - - [21/Dec/2025 22:39:48] "GET / HTTP/1.1" 200 -
+2025-12-21 22:39:48,255 | INFO | 127.0.0.1 - - [21/Dec/2025 22:39:48] "[36mGET /static/css.css HTTP/1.1[0m" 304 -
+2025-12-21 22:39:48,256 | INFO | 127.0.0.1 - - [21/Dec/2025 22:39:48] "[36mGET /static/js.js HTTP/1.1[0m" 304 -
+2025-12-21 22:39:49,608 | INFO | 127.0.0.1 - - [21/Dec/2025 22:39:49] "GET / HTTP/1.1" 200 -
+2025-12-21 22:39:49,638 | INFO | 127.0.0.1 - - [21/Dec/2025 22:39:49] "[36mGET /static/css.css HTTP/1.1[0m" 304 -
+2025-12-21 22:39:49,639 | INFO | 127.0.0.1 - - [21/Dec/2025 22:39:49] "[36mGET /static/js.js HTTP/1.1[0m" 304 -
+2025-12-21 22:40:55,362 | INFO | 127.0.0.1 - - [21/Dec/2025 22:40:55] "GET / HTTP/1.1" 200 -
+2025-12-21 22:40:55,394 | INFO | 127.0.0.1 - - [21/Dec/2025 22:40:55] "[36mGET /static/css.css HTTP/1.1[0m" 304 -
+2025-12-21 22:40:55,400 | INFO | 127.0.0.1 - - [21/Dec/2025 22:40:55] "[36mGET /static/js.js HTTP/1.1[0m" 304 -
+2025-12-21 22:57:25,941 | INFO | 127.0.0.1 - - [21/Dec/2025 22:57:25] "[31m[1mPOST /api/task HTTP/1.1[0m" 400 -
+2025-12-21 22:57:45,586 | INFO | 127.0.0.1 - - [21/Dec/2025 22:57:45] "GET / HTTP/1.1" 200 -
+2025-12-21 22:57:45,641 | INFO | 127.0.0.1 - - [21/Dec/2025 22:57:45] "[36mGET /static/css.css HTTP/1.1[0m" 304 -
+2025-12-21 22:57:45,644 | INFO | 127.0.0.1 - - [21/Dec/2025 22:57:45] "[36mGET /static/js.js HTTP/1.1[0m" 304 -
+2025-12-21 22:57:55,687 | INFO | ========== B\u1eaeT \u0110\u1ea6U QUÉT ==========
+2025-12-21 22:57:55,689 | INFO | URL: https://honghotduong.com/2025/12/20/vu-viec-dang-gay-buc-xuc-nhat-luc-nay/
+2025-12-21 22:57:55,689 | INFO | Category: ['absolute_url', 'dynamic_url', 'static_url']
+2025-12-21 22:57:55,689 | INFO | >>> Quét STATIC HOLES
+2025-12-21 22:57:55,692 | INFO | [Static] Quét Information Disclosure: https://honghotduong.com/2025/12/20/vu-viec-dang-gay-buc-xuc-nhat-luc-nay/
+2025-12-21 22:57:57,907 | INFO | \u26a0\ufe0f [Info Disclosure] Phát hi\u1ec7n: https://honghotduong.com/robots.txt
+2025-12-21 22:59:06,387 | INFO | [Static] Quét Directory Listing: https://honghotduong.com/2025/12/20/vu-viec-dang-gay-buc-xuc-nhat-luc-nay/
+2025-12-21 22:59:41,449 | INFO | [Static] Quét Misconfiguration: https://honghotduong.com/2025/12/20/vu-viec-dang-gay-buc-xuc-nhat-luc-nay/
+2025-12-21 22:59:44,786 | INFO | \u26a0\ufe0f [Misconfig] Header nh\u1ea1y c\u1ea3m: Server=cloudflare
+2025-12-21 22:59:44,786 | INFO | \u26a0\ufe0f [Misconfig] Header nh\u1ea1y c\u1ea3m: X-Powered-By=PHP/8.0.30
+2025-12-21 22:59:44,789 | INFO | >>> Quét DYNAMIC HOLES
+2025-12-21 22:59:44,790 | INFO | [Dynamic] Quét Broken Authentication: https://honghotduong.com/2025/12/20/vu-viec-dang-gay-buc-xuc-nhat-luc-nay/
+2025-12-21 22:59:47,005 | INFO | [Dynamic] Quét IDOR: https://honghotduong.com/2025/12/20/vu-viec-dang-gay-buc-xuc-nhat-luc-nay/
+2025-12-21 22:59:57,550 | INFO | T\u1ed5ng s\u1ed1 l\u1ed7 h\u1ed5ng phát hi\u1ec7n: 3
+2025-12-21 22:59:57,551 | INFO | ========== K\u1ebeT THÚC QUÉT ==========
+
+2025-12-21 22:59:57,551 | INFO | 127.0.0.1 - - [21/Dec/2025 22:59:57] "POST /api/task HTTP/1.1" 200 -
+2025-12-23 09:38:33,141 | INFO | 127.0.0.1 - - [23/Dec/2025 09:38:33] "GET / HTTP/1.1" 200 -
+2025-12-23 09:38:33,232 | INFO | 127.0.0.1 - - [23/Dec/2025 09:38:33] "[36mGET /static/css.css HTTP/1.1[0m" 304 -
+2025-12-23 09:38:33,361 | INFO | 127.0.0.1 - - [23/Dec/2025 09:38:33] "[36mGET /static/js.js HTTP/1.1[0m" 304 -
+2025-12-23 09:44:25,583 | INFO | ========== B\u1eaeT \u0110\u1ea6U QUÉT ==========
+2025-12-23 09:44:25,584 | INFO | URL: https://fly88h.com/?id=878935928
+2025-12-23 09:44:25,585 | INFO | Category: ['absolute_url', 'dynamic_url']
+2025-12-23 09:44:25,585 | INFO | >>> Quét DYNAMIC HOLES
+2025-12-23 09:44:25,593 | INFO | [Dynamic] Quét SQL Injection: https://fly88h.com/?id=878935928
+2025-12-23 09:44:27,840 | INFO | \u26a0\ufe0f [SQLi] Phát hi\u1ec7n t\u1ea1i: id
+2025-12-23 09:44:27,845 | INFO | [Dynamic] Quét XSS: https://fly88h.com/?id=878935928
+2025-12-23 09:44:34,031 | INFO | [Dynamic] Quét Broken Authentication: https://fly88h.com/?id=878935928
+2025-12-23 09:44:35,870 | INFO | [Dynamic] Quét IDOR: https://fly88h.com/?id=878935928
+2025-12-23 09:44:41,178 | INFO | T\u1ed5ng s\u1ed1 l\u1ed7 h\u1ed5ng phát hi\u1ec7n: 2
+2025-12-23 09:44:41,178 | INFO | ========== K\u1ebeT THÚC QUÉT ==========
+
+2025-12-23 09:44:41,180 | INFO | 127.0.0.1 - - [23/Dec/2025 09:44:41] "POST /api/task HTTP/1.1" 200 -
+2025-12-23 21:10:20,712 | INFO | 127.0.0.1 - - [23/Dec/2025 21:10:20] "GET / HTTP/1.1" 200 -
+2025-12-23 21:10:20,893 | INFO | 127.0.0.1 - - [23/Dec/2025 21:10:20] "[36mGET /static/css.css HTTP/1.1[0m" 304 -
+2025-12-23 21:10:21,004 | INFO | 127.0.0.1 - - [23/Dec/2025 21:10:21] "[36mGET /static/js.js HTTP/1.1[0m" 304 -
+2025-12-23 21:20:44,913 | INFO | ========== B\u1eaeT \u0110\u1ea6U QUÉT ==========
+2025-12-23 21:20:44,915 | INFO | URL: https://docs.google.com/document/d/10Kv6-bADpu0OMrK7nLMdFubdlWF0T14UEuoalqM09b4/edit?tab=t.0
+2025-12-23 21:20:44,916 | INFO | Category: ['absolute_url', 'dynamic_url']
+2025-12-23 21:20:44,916 | INFO | >>> Quét DYNAMIC HOLES
+2025-12-23 21:20:44,922 | INFO | [Dynamic] Quét SQL Injection: https://docs.google.com/document/d/10Kv6-bADpu0OMrK7nLMdFubdlWF0T14UEuoalqM09b4/edit?tab=t.0
+2025-12-23 21:21:02,713 | INFO | [Dynamic] Quét XSS: https://docs.google.com/document/d/10Kv6-bADpu0OMrK7nLMdFubdlWF0T14UEuoalqM09b4/edit?tab=t.0
+2025-12-23 21:21:09,819 | INFO | [Dynamic] Quét Broken Authentication: https://docs.google.com/document/d/10Kv6-bADpu0OMrK7nLMdFubdlWF0T14UEuoalqM09b4/edit?tab=t.0
+2025-12-23 21:21:12,158 | INFO | [Dynamic] Quét IDOR: https://docs.google.com/document/d/10Kv6-bADpu0OMrK7nLMdFubdlWF0T14UEuoalqM09b4/edit?tab=t.0
+2025-12-23 21:21:18,628 | INFO | T\u1ed5ng s\u1ed1 l\u1ed7 h\u1ed5ng phát hi\u1ec7n: 0
+2025-12-23 21:21:18,628 | INFO | ========== K\u1ebeT THÚC QUÉT ==========
+
+2025-12-23 21:21:18,632 | INFO | 127.0.0.1 - - [23/Dec/2025 21:21:18] "POST /api/task HTTP/1.1" 200 -

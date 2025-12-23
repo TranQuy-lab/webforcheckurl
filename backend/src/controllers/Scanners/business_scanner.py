@@ -62,3 +62,26 @@ def scan_business_logic(target_url):
             log_error(f"Lỗi khi test order: {e}")
     
     return vulnerabilities
+"""try:
+    # 1. KHỐI "DÙNG THỬ" (Bắt buộc)
+    # Đặt code có nguy cơ gây lỗi ở đây
+    # Ví dụ: Kết nối database, chia số, mở file...
+    ket_qua = 10 / 2
+
+except ZeroDivisionError:
+    # 2. KHỐI "BẮT LỖI" (Bắt buộc phải có ít nhất 1 except)
+    # Chỉ chạy khi code trong 'try' bị lỗi
+    # Ví dụ: Báo lỗi cho người dùng, ghi log...
+    print("Lỗi chia cho 0!")
+
+else:
+    # 3. KHỐI "NẾU KHÔNG LỖI" (Tùy chọn)
+    # Chỉ chạy khi code trong 'try' CHẠY THÀNH CÔNG (không có lỗi nào)
+    print("Chia thành công! Kết quả là:", ket_qua)
+
+finally:
+    # 4. KHỐI "LUÔN LUÔN CHẠY" (Tùy chọn)
+    # Dù có lỗi hay không, dù crash hay thành công, khối này vẫn chạy cuối cùng.
+    # Thường dùng để: Đóng file, ngắt kết nối server, giải phóng RAM.
+    print("Kết thúc chương trình.")
+"""

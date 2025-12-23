@@ -44,14 +44,19 @@ def scan_information_disclosure(base_url):
         try:
             time.sleep(get_request_delay())
             test_url = urljoin(base, filename.lstrip('/'))
+            # filename.lstrip dùng để xóa dấu / ở file
+            # urljoin nối base vào file name để tạo thành url hoàn chỉnh
             resp = session.get(test_url, timeout=DEFAULT_TIMEOUT, allow_redirects=False)
-            
+            #allow_redirects=False không theo dõi chuyển hướng Giả sử http://github.com sẽ luôn chuyển hướng sang giao thức an toàn https://github.com, allow_redirect sẽ ngnanw chuyển hướng 
             if resp.status_code == 200 and len(resp.content) > 10:
                 content_preview = resp.content[:256].lower()
                 if b'<html' in content_preview or b'<!doctype' in content_preview:
                     continue
-                
+                #khi quét nếu trả về trang html thì bỏ qua không báo lỗi
+                # Khi bạn scan các file như .env, database.sql, hay config.json, nội dung của chúng là dạng văn bản thuần (plain text) hoặc JSON, không bao giờ chứa mã HTML.
+                #Nếu server trả về 200 OK nhưng nội dung lại chứa HTML, khả năng cao đó là một trang "Custom 404 Error Page" (trang báo lỗi tùy chỉnh) hoặc trang chủ mặc định mà server trả về cho mọi đường dẫn sai. Nếu không lọc cái này, tool của bạn sẽ báo mọi đường dẫn đều là lỗi bảo mật (False Positive).
                 preview = resp.content[:200].decode('utf-8', errors='replace')
+                #decode chuyển đổi byte thành chuỗi utf-8, errors='replace' thay thế ký tự không thể decode bằng ký tự thay thế
                 vulnerabilities.append({
                     "category": "Information Disclosure",
                     "type": "Sensitive File Exposed",
@@ -63,9 +68,12 @@ def scan_information_disclosure(base_url):
         
         except Exception as e:
             continue
+        # Nếu trong quá trình gửi request gặp bất kỳ lỗi nào (mất mạng, server từ chối kết nối, lỗi SSL, timeout...), chương trình sẽ nhảy vào dòng except.
+        # Ở đây, ta chỉ đơn giản là dùng continue để bỏ qua lỗi và tiếp tục quét các file tiếp theo mà không ghi log lỗi chi tiết nhằm tránh làm rối log hoặc lỗi server, công sức quét trước đó sẽ lỗi hết. 
     return vulnerabilities
 
 def scan_directory_listing(base_url):
+    # Quét Directory Listing trong các thư mục phổ biến
     vulnerabilities = []
     common_dirs = [
         "backup/", "backups/", "old/", "temp/", "tmp/",
@@ -80,14 +88,22 @@ def scan_directory_listing(base_url):
         base = get_base_url(parsed)
     except ValueError:
         return vulnerabilities
-
+# khác với if, continue  : nếu gặp lỗi thì bỏ qua luôn không thực hiện các lệnh bên dưới nữa
+# với try except : nếu gặp lỗi thì thực hiện các lệnh trong except, vẫn tiếp tục thực hiện các lệnh bên dưới
     session = create_session()
     log_info(f"[Static] Quét Directory Listing: {base_url}")
 
     listing_signatures = [
-        "Index of", "Directory listing", "<title>Index of",
-        "Parent Directory", "[To Parent Directory]", "<h1>Index of",
-        "Name                    Last modified      Size  Description"
+    "Index of",
+    "Directory listing",
+    "<title>Index of",
+    "Parent Directory",
+    "[To Parent Directory]",
+    "<h1>Index of",
+    # Các từ khóa bổ sung an toàn hơn thay vì dòng bị lỗi ô vuông:
+    "Last modified",
+    "Description",
+    "Size"
     ]
 
     for dir_path in common_dirs:
